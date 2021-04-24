@@ -14,8 +14,8 @@ const GitHub = ({ user, statusCode }) => {
                         <h1>{user.name}</h1>
                         <img src={user.avatar_url} alt="{user.name}" />
                         <p>{user.bio}</p>
-                        <a href={user.blog} target="_blank" className="btn btn-outline-secondary my-2">My blog</a>
-                        <a href={useRouter.html_url} target="_blank" className="btn btn-outline-secondary">Go to GitHub!</a>
+                        <a href={user.blog} target="_blank" rel="noreferrer " className="btn btn-outline-secondary my-2">My blog</a>
+                        <a href={useRouter.html_url} target="_blank" rel="noreferrer "className="btn btn-outline-secondary">Go to GitHub!</a>
                     </div>
                 </div>
             </div>

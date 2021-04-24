@@ -55,7 +55,7 @@ const Index = () => (
                     <div className="card-body">
                         <h1>Experience</h1>
                         <ul>
-                            {experiences.map(({company,skill,description,from,to},index)=>(
+                            {experiences.map(({company,skill,from,to},index)=>(
                                 <li key={index}>
                                     <h3>{company}</h3>
                                     <h5>{skill}</h5>
