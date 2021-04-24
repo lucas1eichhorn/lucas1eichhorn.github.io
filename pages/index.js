@@ -16,12 +16,8 @@ const Index = () => (
                             <h1>Lucas Eichhorn</h1>
                             <h3>FullStack Developer</h3>
                             <p>
-                                Lorem ipsum smdf smfd dsjdfj dolor siay met setInterval(() = 1
-                                Lorem ipsum smdf smfd dsjdfj dolor siay met setInterval(() = 1
-                                    
-                                , asd);
-                                , asd);v d fdfdfdf
-                                <a href="/hireme"></a>
+                            Hi there! Welcome to my own web portfolio. Im planning to share here my skills, jobs experiences and projects. And yes, i made it by myown, using React and Next JS framework.
+                                <a href="https://www.linkedin.com/in/lucas-eichhorn/">Hire me!</a>
                             </p>
                         </div>
                     </div>
@@ -77,7 +73,7 @@ const Index = () => (
            <div className="card card-body bg-dark">
                <div className="row">
                    <div className="col-md-12">
-                       <h1 className="text-center text-light">Portfolio</h1>
+                       <h1 className="text-center text-light">Portfolio (pending...)</h1>
                    </div>
                    {
                    projects.map(({name,description,image},index)=>(
