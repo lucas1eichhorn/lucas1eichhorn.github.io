@@ -24,7 +24,7 @@ const GitHub = ({ user, statusCode }) => {
 }
 
 
-export async function getServerSideProps() {
+/*export async function getServerSideProps() {
     const res = await fetch('https://api.github.com/users/lucas1eichhorn')
     const data = await res.json();
     console.log(data);
@@ -35,5 +35,5 @@ export async function getServerSideProps() {
             statusCode
         }
     }
-}
+}*/
 export default GitHub;
