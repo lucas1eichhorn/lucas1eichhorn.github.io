@@ -1403,7 +1403,6 @@ function mitt() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getServerSideProps", function() { return getServerSideProps; });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("F5FC");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("4Q3z");
@@ -1463,18 +1462,6 @@ const GitHub = ({
   });
 };
 
-async function getServerSideProps() {
-  const res = await fetch('https://api.github.com/users/lucas1eichhorn');
-  const data = await res.json();
-  console.log(data);
-  const statusCode = res.status > 200 ? res.status : false;
-  return {
-    props: {
-      user: data,
-      statusCode
-    }
-  };
-}
 /* harmony default export */ __webpack_exports__["default"] = (GitHub);
 
 /***/ }),
