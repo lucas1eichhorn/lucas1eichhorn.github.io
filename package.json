@@ -19,7 +19,6 @@
     "dev": "next",
     "build": "npm run eslint && next build",
     "start": "next start",
-    "export": "next export",
     "eslint": "eslint ."
   },
   "keywords": [],
