@@ -16,9 +16,10 @@ const Index = () => (
                             <h1>Lucas Eichhorn</h1>
                             <h3>FullStack Developer</h3>
                             <p>
-                            Hi there! Welcome to my own web portfolio. Im planning to share here my skills, jobs experiences and projects. And yes, i made it by myown, using React and Next JS framework.
-                                <a href="https://www.linkedin.com/in/lucas-eichhorn/">Hire me!</a>
+                            Hi there! Welcome to my own web portfolio. Im planning to share here my skills, jobs experiences and projects. And yes, I made it by myself, using React and Next JS framework.
                             </p>
+                            <a className="btn btn-light" href="https://www.linkedin.com/in/lucas-eichhorn/">Hire me!</a>
+
                         </div>
                     </div>
                 </div>

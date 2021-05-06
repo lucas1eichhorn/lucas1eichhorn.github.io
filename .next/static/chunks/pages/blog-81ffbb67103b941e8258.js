@@ -1,1 +1,0 @@
-_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[9],{BR8T:function(n,i,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/blog",function(){return o("YbiN")}])},YbiN:function(n,i,o){"use strict";o.r(i);var r=o("nKUr"),t=o("5Yp1");i.default=function(){return Object(r.jsx)(t.a,{footer:!1,dark:!0,children:Object(r.jsx)("h1",{children:"BLOG"})})}}},[["BR8T",0,2,1,3]]]);
