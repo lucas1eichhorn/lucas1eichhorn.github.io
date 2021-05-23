@@ -13,7 +13,8 @@ class MyDocument extends Document {
                     <title>Lucas Eichhorn portfolio</title>
                     <meta name="description" content="Lucas Eichhorn's portfolio web developed in React with Next.js" />
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" />
-                </Head>
+
+                 </Head>
                 <body>
                     <Main />
                     <NextScript />

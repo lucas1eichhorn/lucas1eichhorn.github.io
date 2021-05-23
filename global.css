@@ -1,7 +1,8 @@
 body,
-html, body > div:first-child,
+body > div:first-child,
 div#__next,
-div#__next > div{
+div#__next > div,
+html {
   height: 100%;
 }
 
@@ -10,19 +11,32 @@ div#__next > div{
   overflow: hidden;
 }
 
-.overflow .card-img-top{
-    transform: scale(1);
-    transition: all 0.3.s ease-in-out;
+.overflow .card-img-top {
+  transform: scale(1);
+  transition: all .3s ease-in-out;
 }
-.overflow .card-img-top:hover{
-    transform: scale(1.5);
+
+.overflow .card-img-top:hover {
+  transform: scale(1.5);
 
 }
-#nprogress .bar{
+
+#nprogress .bar {
   background-color: #ff5367 !important;
 
 }
+
 #nprogress .spinner-icon {
   border-top-color: #ffbb00;
   border-left-color: #ffbb00;
+}
+/*Jobs section*/
+.job-item .expand {
+  float: right;
+  font-size: 32px;
+}
+
+.job-item button {
+  width: 100%;
+  text-align: left;
 }
