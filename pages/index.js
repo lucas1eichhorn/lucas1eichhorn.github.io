@@ -11,20 +11,24 @@ const Index = () => {
             {/**Header Card */}
             <header className="row">
                 <div className="col-md-12">
-                    <div className="card card-body bg-secondary text-light">
+                    <div className="card card-body main-banner bg-secondary text-light">
                         <div className="row">
-                            <div className="col-md-4">
-                                <img src="images/lucas-profile.jpg" alt="Lucas Eichhorn profile picture" className="img-fluid" />
-                            </div>
+                           
                             <div className="col-md-8">
                                 <h1>Lucas Eichhorn</h1>
-                                <h3>FullStack Developer</h3>
+                                <h3>Software Engineer & FullStack Developer</h3>
                                 <p>
                                     Hi there! Welcome to my own web portfolio. Im planning to share here my skills, jobs experiences and projects. And yes, I made it by myself, using React and Next JS framework.
+                            </p>
+                            <p>
+                                <i className="fa fa-map-marker"></i> &nbsp; Santa Fe, Argentina
                             </p>
                                 <a className="btn btn-light" href="https://www.linkedin.com/in/lucas-eichhorn/">Contact me!</a>
                                 <a className="btn btn-secondary" href="files/CV_Lucas_Eichhorn_2021.pdf" target="_blank">Download my CV <i className="fa fa-download"></i></a>
 
+                            </div>
+                            <div className="col-md-4">
+                                <img src="images/lucas-profile.png" alt="Lucas Eichhorn profile picture" className="img-fluid" />
                             </div>
                         </div>
                     </div>

@@ -30,6 +30,10 @@ html {
   border-top-color: #ffbb00;
   border-left-color: #ffbb00;
 }
+/*banner*/
+.main-banner {
+  background: linear-gradient(to right, #373a3c, black);
+}
 /*Jobs section*/
 .job-item .expand {
   float: right;
