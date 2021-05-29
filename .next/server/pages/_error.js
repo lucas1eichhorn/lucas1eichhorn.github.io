@@ -355,7 +355,7 @@ const Footer = () => /*#__PURE__*/Object(jsx_runtime_["jsx"])("footer", {
     children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
       className: "container p-4",
       children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h1", {
-        children: "\xA9 Lucas Eichhorn Portfolio"
+        children: " Lucas Eichhorn \xA9 Portfolio"
       }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("p", {
         children: ["2015 - ", new Date().getFullYear()]
       }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {

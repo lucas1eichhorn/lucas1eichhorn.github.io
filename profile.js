@@ -35,6 +35,16 @@ export const skills = [
     {
         skill: 'API REST & GraphQL',
         percentage: '80',
+    },
+    {
+        skill: 'QA & Testing',
+        percentage: '70',
+        subskills: ['JEST', 'Enzyme', 'Cucumber', 'Selenium', 'Robot Framework', 'WebDriver IO']
+    },
+    {
+        skill: 'Databases',
+        percentage: '80',
+        subskills: ['MySQL', 'MariaDB', 'PostgreSQL', 'Oracle']
     }
 
 ]
@@ -50,7 +60,55 @@ export const learning = [
     },
     {
         skill: 'Pyhton',
-        percentage: '30'
+        percentage: '30',
+
+    },
+]
+
+export const education = [
+    {
+        title: 'Information system engineer',
+        subtitle: 'National Technological University (Argentina)',
+        period: '2012 - 2019',
+    },
+    {
+        title: 'Scrum Grand Master - Project management',
+        subtitle: 'e-Learning center at UTN FRBA',
+        period: '2019',
+    },
+]
+
+export const certifications = [
+    {
+        title: 'AWS Cloud Practitiones Essentials',
+        subtitle: 'Amazon Web Services (AWS)',
+        period: 'May 2021',
+    },
+    {
+        title: 'GitLab Certified Associate',
+        subtitle: 'GitLab',
+        period: 'May 2021',
+    },
+    {
+        title: 'React & Redux',
+        subtitle: 'Udemy',
+        period: 'Apr 2019',
+    },
+    {
+        title: 'Hybrid mobiles app with Ionic 3',
+        subtitle: 'Udemy',
+        period: 'Jan 2019',
+    },
+]
+
+export const languajes = [
+    {
+        name: 'Spanish',
+        level: 'Native'
+    },
+    {
+        name: 'English',
+        level: 'B1 Intermediate (Studies in course - FCE)'
     },
 ]
 
@@ -60,12 +118,9 @@ export const experiences = [
         skills: "PHP + HTML + JQUERY + CSS + MySQL +AWS Admin ",
         from: "May 2020",
         role: "CTO & Fullstack Developer",
-        description: `DoctorPlus is an e-health solution initially implemented for Argentina, then in France and
-        Morocco. It offers doctors and patients a platform to make video calls, achieving
-        remote medical consultations and office management.
-        I started the project at the Xinergia consulting firm developing the application for Argentina, and years more
-        Later I got involved again to develop the product in France and Morocco, with the aim
-        to offer there health programs for the treatment of different problems of patients.`,
+        description: `DoctorPlus is an e-health solution initially implemented for Argentina, then in France and Morocco.
+        It offers doctors and patients a platform to make video calls, achievingremote medical consultations and office management.
+        I started the project at the Xinergia consulting firm developing the application for Argentina, and some years later I got involved again to develop the product in France and Morocco, with the aim to offer there health programs for the treatment of different problems of patients.`,
     },
     {
         company: "MercadoLibre",
@@ -73,8 +128,8 @@ export const experiences = [
         from: "Ene 2020",
         to: "May 2020",
         role: "Front end & middle end developer",
-        description:`I was part of the team that develops the offers section within the tools for sellers. I took on the role of frontend developer, using Javascript technologies such as React and
-        Node JS and adopting agile methodologies through Scrum for the development of team projects.`
+        description: `I was part of the team that develops the offers section within the tools for sellers.
+        I took on the role of frontend developer, using Javascript technologies such as React and Node JS and adopting agile methodologies through Scrum for the development of team projects.`
     },
     {
         company: "NEORIS",
@@ -82,17 +137,19 @@ export const experiences = [
         from: "Jun 2019",
         to: "Ene 2020",
         role: "Fullstack Developer",
-        description:`Me desempeñe en área de servicios financieros para el sector de banca privada, con el rol desarrollador fullstack. 
-        Me capacité como Scrum Master (Univ. Tecnológica Nacional - Facultad Buenos Aires), para la coordinación del equipo de trabajo que llevaba adelante proyectos con tecnologías Angular y Java.`
-        },
+        description: `I worked in the area of financial services for the private banking section. 
+        My role was as fullstack developer, and then I trained as a Scrum Master (National Technological University), to coordinate the work team that carried out projects with Angular and Java technologies..`
+    },
     {
         company: "Xinergia",
         skills: "PHP + HTML + JQUERY + CSS + MySQL/Oracle/Postgre",
         from: "Nov 2015",
         to: "Jun 2019",
         role: "Fullstack Developer",
-        description:`At the beginning of my professional career, I worked in this company forming my profile as a fullstack web developer performing the analysis, design and implementation of numerous web systems, mobile applications, creation of e-commerce and advertising websites for different clients, allowing them to improve their management internal and brand positioning.`
-        },
+        description: `At the beginning of my professional career while I was at univeristy, I started working in this company and forming my profile as a fullstack web developer.
+        Along many years I was in charge of analyze, design and implement a plenty of web systems, mobile applications, creation of e-commerce and advertising websites for different clients. 
+        This tasks allowed customers to improve their internal proceses, management and brand positioning.`
+    },
 
 ]
 

@@ -10,10 +10,10 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <title>Lucas Eichhorn portfolio</title>
+                    <title>Lucas Eichhorn | Portfolio</title>
                     <meta name="description" content="Lucas Eichhorn's portfolio web developed in React with Next.js" />
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" />
-
+                    <link rel="icon" type="" href="images/favicon.png" />
                  </Head>
                 <body>
                     <Main />

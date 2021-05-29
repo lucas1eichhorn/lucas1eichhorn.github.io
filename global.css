@@ -39,6 +39,10 @@ html {
   float: right;
   font-size: 32px;
 }
+.job-description{
+  white-space: pre-line;
+  line-height: 1.8;
+}
 
 .job-item button {
   width: 100%;
