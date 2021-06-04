@@ -95,7 +95,7 @@ export const certifications = [
         period: 'Apr 2019',
     },
     {
-        title: 'Hybrid mobiles app with Ionic 3',
+        title: 'Ionic 3: Hybrid mobiles apps',
         subtitle: 'Udemy',
         period: 'Jan 2019',
     },
@@ -155,18 +155,21 @@ export const experiences = [
 
 export const projects = [
     {
-        name: "Awsome website 1",
+        name: "Serendipia Deco",
+        subtitle: "e-commerce",
         description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
-        image: "portfolio1.png"
+        image: "serendipia.png"
     },
     {
-        name: "Mobile website 2",
+        name: "Cristian Brunet",
+        subtitle: "Wedding photographer website",
         description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
-        image: "portfolio2.png"
+        image: "cristian-brunet1.png"
     }, {
-        name: "Awsome website 3",
+        name: "DoctorPlus",
+        subtitle:"e-health & well-being",
         description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
-        image: "portfolio3.png"
+        image: "doctorplus.png"
     },
     {
         name: "Mobile website 4",

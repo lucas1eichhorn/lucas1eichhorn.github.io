@@ -35,6 +35,9 @@ html {
   background: linear-gradient(to right, #373a3c, black);
 }
 /*Jobs section*/
+h1 i {
+  margin-right: 10px;
+}
 .job-item .expand {
   float: right;
   font-size: 32px;

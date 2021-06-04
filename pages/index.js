@@ -18,10 +18,14 @@ const Index = () => {
                                 <h1>Lucas Eichhorn</h1>
                                 <h3>Engineer & FullStack Developer</h3>
                                 <p>
-                                    Hi there! Welcome to my own web portfolio. Im planning to share here my skills, jobs experiences and projects.
-                                    </p>
-                                <p>I made it by myself, using React and Next JS framework.
-                            </p>
+                                    Hi there! Welcome to my own web portfolio. I&spos;m planning to share here my skills, jobs experiences and projects.
+                                </p>
+                                <p>
+                                    Sincerely I believe that have a huge variety of skills that I have been developing across my career for solving problems. Some of them are more mastered than others.
+                                </p>
+                                <p>
+                                    I love to constantly learn and apply new knowledge. Therefore, I made this web by myself, using React and Next JS framework.
+                                </p>
                                 <p>
                                     <i className="fa fa-map-marker"></i> &nbsp; Santa Fe, Argentina
                             </p>
@@ -155,17 +159,19 @@ const Index = () => {
                         <div className="row card card-body bg-dark">
                             <div className="row">
                                 <div className="col-md-12">
-                                    <h1 className="text-center text-light">Portfolio (pending...)</h1>
+                                    <h1 className="text-center text-light">Portfolio</h1>
+                                    <h5 className="text-center text-light">Most of my projects were developed working for private companies, so I cannot share them. But here you can check some and even practical apps</h5>
                                 </div>
                                 {
-                                    projects.map(({ name, description, image }, index) => (
+                                    projects.map(({ name, description, subtitle, image }, index) => (
                                         <div className="col-md-4 p-2" key={index}>
                                             <div className="card h-100">
                                                 <div className="overflow">
-                                                    <img src={`images/${image}`} alt={name} className="card-img-top" />
+                                                    <img src={`images/projects/${image}`} alt={name} className="card-img-top" />
                                                 </div>
                                                 <div className="card-body">
                                                     <h3>{name}</h3>
+                                                    <h6>{subtitle}</h6>
                                                     <p>{description}</p>
                                                 </div>
                                             </div>
