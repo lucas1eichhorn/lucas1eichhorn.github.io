@@ -2,9 +2,12 @@ import { Button } from 'react-bootstrap'
 import { useState } from 'react';
 import Collapse from 'react-bootstrap/Collapse'
 import styles from './Skill.module.sass'
+import classNames from 'classnames'
 
 const Skill = ({ skill, index }) => {
     const [open, setOpen] = useState(false);
+    // a random int to choose classname
+    const classRandomInt = (index+10)%3+1;
     return (
 
         <div >
@@ -14,8 +17,14 @@ const Skill = ({ skill, index }) => {
                 aria-expanded={open}
                 variant="light"
             >
-                <div className="py-3 text-left">
-                    <h5>{skill.skill}</h5>
+                <div className="py-3 text-left" style={{ width: 'fit-content' }}>
+                    <h5 className={classNames({
+                        [`${styles.typing}`]: true,
+                        [`${styles.anim1}`]: classRandomInt===1,
+                        [`${styles.anim2}`]: classRandomInt===2,
+                        [`${styles.anim3}`]: classRandomInt===3,
+                      
+                    })}>{skill.skill}</h5>
                 </div>
                 <div className={styles.progress_container}>
                     <div className={`progress ${styles.progress}`}>

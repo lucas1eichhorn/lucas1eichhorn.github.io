@@ -391,6 +391,42 @@ const Navbar = () => /*#__PURE__*/Object(jsx_runtime_["jsx"])("nav", {
         className: "nav-link text-light pull-right",
         children: "Github"
       })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("button", {
+      className: "navbar-toggler",
+      type: "button",
+      "data-toggle": "collapse",
+      "data-target": "#navbarSupportedContent",
+      "aria-controls": "navbarSupportedContent",
+      "aria-expanded": "false",
+      "aria-label": "Toggle navigation",
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
+        className: "navbar-toggler-icon"
+      })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
+      className: "collapse navbar-collapse",
+      id: "navbarSupportedContent",
+      children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("ul", {
+        className: "navbar-nav mr-auto",
+        children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+          className: "nav-item",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+            href: "/blog",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+              className: "nav-link",
+              children: "Blog"
+            })
+          })
+        }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("li", {
+          className: "nav-item",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+            href: "/github",
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])("a", {
+              className: "nav-link",
+              children: "Github"
+            })
+          })
+        })]
+      })
     })]
   })
 });

@@ -52,7 +52,7 @@ const Index = () => {
                         <div className="card-body">
                             <h1><i className="fa fa-book"></i> <strong>Learning</strong></h1>
                             {
-                                learning.map((skill, i) => (<Skill skill={skill} key={i} />))
+                                learning.map((skill, i) => (<Skill skill={skill} key={i} index={i} />))
                             }
 
                         </div>
