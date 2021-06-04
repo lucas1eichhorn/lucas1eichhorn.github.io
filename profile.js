@@ -37,7 +37,7 @@ export const skills = [
         percentage: '80',
     },
     {
-        skill: 'QA & Testing',
+        skill: 'QA: Testing & CI/CD',
         percentage: '70',
         subskills: ['JEST', 'Enzyme', 'Cucumber', 'Selenium', 'Robot Framework', 'WebDriver IO']
     },
