@@ -8,9 +8,10 @@
       width: 100%
   &.empty
     cursor: default !important
-    &:hover,&:active
+    &:hover,&:active,&:focus,&visited
       background-color: transparent !important
       border-color: transparent !important
+      box-shadow: none
 
 $bg: #f8f9fa
 $text-color: #d7b94c
@@ -51,8 +52,28 @@ $text-length: 16
     width: 0
     height: 0
     overflow: hidden
-@-webkit-keyframes hidingAnimation
-  to 
-    width: 0
-    height: 0
-    visibility: hidden
+/*Progress bar anim*/
+.progress_bar
+  background-color: #e9ecef
+.color
+  position: relative
+  background-color: #2780e3
+  width: 0px
+  height: 10px
+  animation: progres 4s normal forwards linear
+
+@keyframes progres
+  0%
+    width: 0%
+
+  25%
+    width: 50%
+
+  50%
+    width: 75%
+
+  75%
+    width: 85%
+
+  100%
+    width: 100%

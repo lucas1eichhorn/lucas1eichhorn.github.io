@@ -2,12 +2,7 @@ export const skills = [
     {
         skill: 'PHP',
         percentage: '80',
-        subskills: ['Xinergia Adhoc Framework', 'Laravel', 'Slim Framework']
-    },
-    {
-        skill: 'Javascript',
-        percentage: '80',
-        subskills: ['jQuery', 'ES5 / ES6', 'Typescript']
+        subskills: ['Laravel', 'Slim Framework','Xinergia Adhoc Framework']
     },
     {
         skill: 'HTML & CSS',
@@ -15,6 +10,12 @@ export const skills = [
         subskills: ['Bootstrap 3 & 4', 'Sass preprocessor', 'Less preprocessor']
 
     },
+    {
+        skill: 'Javascript',
+        percentage: '80',
+        subskills: ['jQuery', 'ES5 / ES6', 'Typescript','React','Angular']
+    },
+  
     {
         skill: 'Nodejs',
         percentage: '70',
@@ -80,7 +81,7 @@ export const education = [
 
 export const certifications = [
     {
-        title: 'AWS Cloud Practitiones Essentials',
+        title: 'AWS Cloud Practitioner Essentials',
         subtitle: 'Amazon Web Services (AWS)',
         period: 'May 2021',
     },
@@ -108,7 +109,7 @@ export const languajes = [
     },
     {
         name: 'English',
-        level: 'B1 Intermediate (Studies in course - FCE)'
+        level: 'B1 Intermediate (Studies in course: First)'
     },
 ]
 
@@ -162,7 +163,7 @@ export const projects = [
     },
     {
         name: "Cristian Brunet",
-        subtitle: "Wedding photographer website",
+        subtitle: "Wedding photographer",
         description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
         image: "cristian-brunet1.png"
     }, {
@@ -172,17 +173,15 @@ export const projects = [
         image: "doctorplus.png"
     },
     {
-        name: "Mobile website 4",
+        name: "KeyWi",
+        subtitle:"Smart lock with Arduino ",
         description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
-        image: "portfolio3.png"
+        image: "keywi2.jpg"
     }, {
-        name: "Awsome website 5",
+        name: "Taxi Tracker",
+        subtitle:"Starter Ionic project",
         description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
-        image: "portfolio1.png"
+        image: "taxi-app.png"
     },
-    {
-        name: "Mobile website 6",
-        description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
-        image: "portfolio2.png"
-    }
+   
 ]

@@ -28,7 +28,9 @@ const Skill = ({ skill, index }) => {
                 </div>
                 <div className={styles.progress_container}>
                     <div className={`progress ${styles.progress}`}>
-                        <div className="progress-bar" role="progressbar" style={{ width: `${skill.percentage}%` }}> </div>
+                        <div className={`progress-bar ${styles.progress_bar}`} role="progressbar" style={{ width: `${skill.percentage}%` }}> 
+                        <div className={`${styles.color}`}></div>
+                        </div>
                     </div>
                     {skill.subskills &&
                         <i className="ml-1 fa fa-angle-down"></i>}

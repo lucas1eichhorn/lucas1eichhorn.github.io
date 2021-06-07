@@ -4,6 +4,7 @@ import { skills, learning, experiences, projects, languajes, education, certific
 import Skill from '../components/Skill';
 import Link from 'next/link';
 import { Button, Collapse } from 'react-bootstrap';
+import Project from '../components/Project';
 const Index = () => {
     const [open, setOpen] = useState(false);
     return (
@@ -15,10 +16,10 @@ const Index = () => {
                         <div className="row">
 
                             <div className="col-md-8">
-                                <h1>Lucas Eichhorn</h1>
-                                <h3>Engineer & FullStack Developer</h3>
+                              
+                                <h3>Hi there!</h3>
                                 <p>
-                                    Hi there! Welcome to my own web portfolio. I&spos;m planning to share here my skills, jobs experiences and projects.
+                                     Welcome to my own web portfolio. I&apos;m planning to share here my skills, jobs experiences and projects.
                                 </p>
                                 <p>
                                     Sincerely I believe that have a huge variety of skills that I have been developing across my career for solving problems. Some of them are more mastered than others.
@@ -43,7 +44,7 @@ const Index = () => {
             {/**Second section */}
             <div className="mt-2 row">
                 <div className="col-md-4">
-                    <div className="card bg-light">
+                    <div id="skills" className="card bg-light">
                         <div className="card-body">
                             <h1><i className="fa fa-wrench"></i> <strong>Skills</strong></h1>
                             {
@@ -52,7 +53,7 @@ const Index = () => {
 
                         </div>
                     </div>
-                    <div className="mt-2 card bg-light">
+                    <div id="learning" className="mt-2 card bg-light">
                         <div className="card-body">
                             <h1><i className="fa fa-book"></i> <strong>Learning</strong></h1>
                             {
@@ -61,7 +62,7 @@ const Index = () => {
 
                         </div>
                     </div>
-                    <div className="mt-2 card bg-light">
+                    <div id="languages" className="mt-2 card bg-light">
                         <div className="card-body">
                             <h1><i className="fa fa-language"></i> <strong>Languages</strong></h1>
                             {languajes.map(({ name, level }, i) => (
@@ -78,7 +79,7 @@ const Index = () => {
 
 
                     {/**Job Experience */}
-                    <div className="mt-2 col-md-12">
+                    <div id="jobs" className="mt-2 col-md-12">
                         <div className="row card bg-light">
                             <div className="card-body">
                                 <h1><i className="fa fa-laptop"></i><strong>Job experiences</strong></h1>
@@ -109,14 +110,12 @@ const Index = () => {
                                     ))}
 
                                 </ul>
-                                <Link href="/experiences">
-                                    <a className="btn btn-light">Know More</a>
-                                </Link>
+                                
                             </div>
                         </div>
                     </div>
                     {/**Education */}
-                    <div className="mt-2 col-md-12">
+                    <div id="education" className="mt-2 col-md-12">
                         <div className="row card bg-light">
                             <div className="card-body">
                                 <h1><i className="fa fa-graduation-cap"></i><strong>Education</strong></h1>
@@ -135,7 +134,7 @@ const Index = () => {
                     </div>
 
                     {/**Certifications */}
-                    <div className="mt-2 col-md-12">
+                    <div id="certifications" className="mt-2 col-md-12">
                         <div className="row card bg-light">
                             <div className="card-body">
                                 <h1><i className="fa fa-trophy"></i><strong>Certifications</strong></h1>
@@ -154,7 +153,7 @@ const Index = () => {
 
                     {/**Portfolio */}
 
-                    <div className="mt-2 col-md-12">
+                    <div id="projects" className="mt-2 col-md-12">
 
                         <div className="row card card-body bg-dark">
                             <div className="row">
@@ -163,29 +162,19 @@ const Index = () => {
                                     <h5 className="text-center text-light">Most of my projects were developed working for private companies, so I cannot share them. But here you can check some and even practical apps</h5>
                                 </div>
                                 {
-                                    projects.map(({ name, description, subtitle, image }, index) => (
-                                        <div className="col-md-4 p-2" key={index}>
-                                            <div className="card h-100">
-                                                <div className="overflow">
-                                                    <img src={`images/projects/${image}`} alt={name} className="card-img-top" />
-                                                </div>
-                                                <div className="card-body">
-                                                    <h3>{name}</h3>
-                                                    <h6>{subtitle}</h6>
-                                                    <p>{description}</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    projects.map((project, i) => (
+                                        <Project project={project} key={i} index={i} />
                                     ))
                                 }
 
-                                <div className="text-center mt-4">
-                                    <Link href="/portfolio">
+                            </div>
+                            <div className="row">
+                                <div className="col-md-12 text-center mt-4">
+                                    <Link href="/github">
                                         <a className="btn btn-outline-light">More projects</a>
                                     </Link>
                                 </div>
                             </div>
-
                         </div>
                     </div>
 

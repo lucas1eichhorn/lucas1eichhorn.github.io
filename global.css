@@ -21,6 +21,12 @@ html {
 
 }
 
+.nav-item{
+  cursor: pointer;
+}
+.nav-item:hover{
+  transform:scale(1.2);
+}
 #nprogress .bar {
   background-color: #ff5367 !important;
 
