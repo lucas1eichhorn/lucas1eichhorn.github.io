@@ -4,6 +4,7 @@ div#__next,
 div#__next > div,
 html {
   height: 100%;
+  background:#E6F0F3;
 }
 
 .overflow {
@@ -38,7 +39,11 @@ html {
 }
 /*banner*/
 .main-banner {
-  background: linear-gradient(to right, #373a3c, black);
+  /*background: linear-gradient(to right, #373a3c, black);*/
+  border:none;
+  border-bottom:solid 3px #7197A4;
+  background:#E6F0F3;
+  padding-bottom:0px;
 }
 /*Jobs section*/
 h1 i {
@@ -57,4 +62,38 @@ h1 i {
 .job-item button {
   width: 100%;
   text-align: left;
+}
+
+/*Card colors*/
+.card-bg-1{
+background:#AFC9D2;
+color:#ffffff;
+}
+.bg-blue1{
+  background:#7197A4;
+}
+.bg-blue2{
+  background: #C9DBE9;
+}
+.bg-blue3{
+  background: #a2bfca;
+}
+.bg-blue4{
+  background: #e0eef7;
+}
+.bg-blue5{
+  background: #5a6a75;
+}
+.txt-blue1{
+  color:#2a5969;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: #2a5969;
+  border-color: #2a5969;
+}
+
+/*button transparent*/
+.btn:focus, .btn.focus {
+  box-shadow: none !important;
 }

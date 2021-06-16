@@ -116,29 +116,30 @@ export const languajes = [
 export const experiences = [
     {
         company: "DoctorPlus SAS",
-        skills: "PHP + HTML + JQUERY + CSS + MySQL +AWS Admin ",
+        skills: "PHP + HTML + jQuery + CSS + MySQL + AWS Admin ",
         from: "May 2020",
         role: "CTO & Fullstack Developer",
-        description: `DoctorPlus is an e-health solution initially implemented for Argentina, then in France and Morocco.
-        It offers doctors and patients a platform to make video calls, achievingremote medical consultations and office management.
-        I started the project at the Xinergia consulting firm developing the application for Argentina, and some years later I got involved again to develop the product in France and Morocco, with the aim to offer there health programs for the treatment of different problems of patients.`,
+        description: `DoctorPlus is French startup that provides an e-health solution with well-being programs. Through video consultations it offers doctors and patients a platform to achieve remote medical consultations.
+        This project started a few years ago, while I was working at the Xinergia consulting firm developing the application for Argentina, and some years later I got involved again to develop the product in France and even in Morocco in a future. 
+        I have a huge variety of tasks here. In my role as a lead full stack developer, I work from analysis with the product owner to software implementations and even AWS Cloud management. 
+        `,
     },
     {
         company: "MercadoLibre",
-        skills: "React + Node JQ",
+        skills: "React + Node JS",
         from: "Ene 2020",
         to: "May 2020",
         role: "Front end & middle end developer",
-        description: `I was part of the team that develops the offers section within the tools for sellers.
-        I took on the role of frontend developer, using Javascript technologies such as React and Node JS and adopting agile methodologies through Scrum for the development of team projects.`
-    },
+        description: `MercadoLibre is the #1 marketplace in Latin America and one of the top 10 most visited e-commerce websites.
+        I was part of the team that develops tools for sellers, more specifically the offers section that allows user set promotions in their products.
+        Here I assumed the position of front/middle end developer. I used to work with JavaScript technologies such as React (server side rendering framework) or Node JS (express based framework), and additionally adopting agile methodologies like Scrum with my team.`    },
     {
         company: "NEORIS",
         skills: "React + Angular + NodeJS + Java",
         from: "Jun 2019",
         to: "Ene 2020",
         role: "Fullstack Developer",
-        description: `I worked in the area of financial services for the private banking section. 
+        description: `I worked in the argentinian subsidiario of this software factory, specifically in the area of financial services for the private banking section. 
         My role was as fullstack developer, and then I trained as a Scrum Master (National Technological University), to coordinate the work team that carried out projects with Angular and Java technologies..`
     },
     {

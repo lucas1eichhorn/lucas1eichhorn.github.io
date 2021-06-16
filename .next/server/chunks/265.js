@@ -63,7 +63,7 @@ const Navbar = ({
     1: setOpen
   } = (0,external_react_.useState)(false);
   return /*#__PURE__*/jsx_runtime_.jsx("nav", {
-    className: "navbar navbar-dark bg-dark",
+    className: "navbar navbar-dark bg-blue1",
     children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
       className: "container",
       children: [/*#__PURE__*/jsx_runtime_.jsx(external_react_scroll_.Link, {
@@ -83,6 +83,7 @@ const Navbar = ({
         onClick: () => setOpen(!open),
         "aria-expanded": open,
         "aria-label": "Toggle navigation",
+        variant: "link",
         children: /*#__PURE__*/jsx_runtime_.jsx("span", {
           className: "navbar-toggler-icon"
         })

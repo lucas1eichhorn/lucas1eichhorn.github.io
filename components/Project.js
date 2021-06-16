@@ -5,7 +5,7 @@ const Project = ({ project, index }) => {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="col-md-4 p-2" key={index}>
+    <div className="col-md-4 p-2 item" key={index}>
       <div className="card h-100">
         <Button
           variant="transparent"

@@ -1,6 +1,30 @@
 
 .toggle_skill
   width: 100%
+  background: #C9DBE9
+  color: #7197A4
+  border: none
+  &:hover
+    background: #adc1d0 !important
+    color: #316371
+  &:active,&:focus,&visited
+    background: #C9DBE9
+    color: #7197A4
+  &.learning
+    width: 100%
+    background: #a3beca
+    color: #265969
+    border: none
+    &:hover
+      background: #adc1d0 !important
+      color: #316371
+    &:active,&:focus,&visited
+      color: #251805
+
+     
+  h5
+    font-weight: 600
+    font-color: #7197A4
   .progress_container
     display: flex
     align-items: center
@@ -13,8 +37,10 @@
       border-color: transparent !important
       box-shadow: none
 
-$bg: #f8f9fa
-$text-color: #d7b94c
+$bg: #C9DBE9
+$text-color: #C9DBE9
+$bg2: #20216e
+$text-color2: #973497
 $caret-color: black
 $text-length: 16
 
@@ -28,6 +54,10 @@ $text-length: 16
     width: 100%
     color: $caret-color
     background: $bg
+  &.learning
+    &::after
+        background: $bg2
+
 .anim1
   &::after
     animation: typing 1s steps($text-length) forwards, caret 1s infinite, hidingAnimation 0s ease-in 7s forwards
@@ -57,7 +87,7 @@ $text-length: 16
   background-color: #e9ecef
 .color
   position: relative
-  background-color: #2780e3
+  background: linear-gradient(to right,#aad3ef, #7197A4)
   width: 0px
   height: 10px
   animation: progres 4s normal forwards linear

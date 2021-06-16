@@ -6,7 +6,7 @@ import { useState } from "react";
 const Navbar = ( {menu = true}) => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="navbar navbar-dark bg-dark">
+    <nav className="navbar navbar-dark bg-blue1">
       <div className="container">
         <Link href="/">
           <a className="navbar-brand">Lucas Eichhorn <br></br>
@@ -22,6 +22,7 @@ const Navbar = ( {menu = true}) => {
           onClick={() => setOpen(!open)}
           aria-expanded={open}
           aria-label="Toggle navigation"
+          variant="link"
         >
           <span className="navbar-toggler-icon"></span>
         </Button>
