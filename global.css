@@ -4,7 +4,7 @@ div#__next,
 div#__next > div,
 html {
   height: 100%;
-  background:#E6F0F3;
+  background: #e6f0f3;
 }
 
 .overflow {
@@ -14,23 +14,22 @@ html {
 
 .overflow .card-img-top {
   transform: scale(1);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .overflow .card-img-top:hover {
   transform: scale(1.5);
-
 }
 
-.nav-item{
+.nav-item {
   cursor: pointer;
+  font-size: 16px;
 }
-.nav-item:hover{
-  transform:scale(1.2);
+.nav-item:hover {
+  transform: scale(1.2);
 }
 #nprogress .bar {
   background-color: #ff5367 !important;
-
 }
 
 #nprogress .spinner-icon {
@@ -40,10 +39,10 @@ html {
 /*banner*/
 .main-banner {
   /*background: linear-gradient(to right, #373a3c, black);*/
-  border:none;
-  border-bottom:solid 3px #7197A4;
-  background:#E6F0F3;
-  padding-bottom:0px;
+  border: none;
+  border-bottom: solid 3px #7197a4;
+  background: #e6f0f3;
+  padding-bottom: 0px;
 }
 /*Jobs section*/
 h1 i {
@@ -65,35 +64,62 @@ h1 i {
 }
 
 /*Card colors*/
-.card-bg-1{
-background:#AFC9D2;
-color:#ffffff;
+.card-bg-1 {
+  background: #afc9d2;
+  color: #ffffff;
 }
-.bg-blue1{
-  background:#7197A4;
+.bg-white-shadow {
+  border: none;
+  box-shadow: 5px 5px 11px 0px #c3dae6;
+  background: #e8f5ff;
+  margin-bottom: 20px;
 }
-.bg-blue2{
-  background: #C9DBE9;
+.bg-blue1 {
+  background: #7197a4;
 }
-.bg-blue3{
-  background: #a2bfca;
-}
-.bg-blue4{
-  background: #e0eef7;
+.txt-blue1 {
+  color: #2a5969;
 }
 .bg-blue5{
   background: #5a6a75;
-}
-.txt-blue1{
-  color:#2a5969;
 }
 .btn-secondary {
   color: #fff;
   background-color: #2a5969;
   border-color: #2a5969;
 }
+.bg-skills,
+.bg-learning,
+.bg-languajes {
+  border: none;
+  background: #e6f0f3;
+}
 
 /*button transparent*/
-.btn:focus, .btn.focus {
+.btn:focus,
+.btn.focus {
   box-shadow: none !important;
+}
+
+/*Mobile break*/
+@media (max-width: 600px) {
+  h1,
+  .h1 {
+    font-size: 1.8rem;
+  }
+  h3,
+  .h3 {
+    font-size: 1.3rem;
+  }
+  h4,
+  .h4 {
+    font-size: 1.2rem;
+  }
+  .content-wrapper{
+    flex-direction: column-reverse;
+  }
+}
+
+.img-profile{
+  max-height: 400px;
 }

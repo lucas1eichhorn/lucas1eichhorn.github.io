@@ -4,15 +4,15 @@ import {
   skills,
   learning,
   experiences,
-  //projects,
+  projects,
   languajes,
   education,
   certifications,
 } from "../profile";
 import Skill from "../components/Skill";
-//import Link from "next/link";
+import Link from "next/link";
 import { Button, Collapse } from "react-bootstrap";
-//import Project from "../components/Project";
+import Project from "../components/Project";
 const Index = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -67,7 +67,7 @@ const Index = () => {
                 <img
                   src="images/lucas-profile.png"
                   alt="Lucas Eichhorn profile picture"
-                  className="img-fluid"
+                  className="img-fluid img-profile"
                 />
               </div>
             </div>
@@ -75,9 +75,9 @@ const Index = () => {
         </div>
       </header>
       {/**Second section */}
-      <div className="mt-2 row">
+      <div className="mt-2 row content-wrapper">
         <div className="col-md-4">
-          <div id="skills" className="mt-2 card bg-blue2">
+          <div id="skills" className="mt-2 card bg-skills">
             <div className="card-body">
               <h1>
                 <i className="fa fa-wrench txt-blue1"></i> <strong className="txt-blue1">Skills</strong>
@@ -87,20 +87,20 @@ const Index = () => {
               ))}
             </div>
           </div>
-          <div id="learning" className="mt-2 card bg-blue3">
+          <div id="learning" className="mt-2 card bg-learning">
             <div className="card-body">
               <h1>
-                <i className="fa fa-book"></i> <strong>Learning</strong>
+                <i className="fa fa-book txt-blue1"></i> <strong className="txt-blue1">Learning</strong>
               </h1>
               {learning.map((skill, i) => (
                 <Skill skill={skill} key={i} type="learning" index={i} />
               ))}
             </div>
           </div>
-          <div id="languages" className="mt-2 card bg-blue4">
+          <div id="languages" className="mt-2 card bg-languajes">
             <div className="card-body">
               <h1>
-                <i className="fa fa-language"></i> <strong>Languages</strong>
+                <i className="fa fa-language txt-blue1"></i> <strong className="txt-blue1">Languages</strong>
               </h1>
               {languajes.map(({ name, level }, i) => (
                 <div key={i}>
@@ -114,7 +114,7 @@ const Index = () => {
         <div className="col-md-8">
           {/**Job Experience */}
           <div id="jobs" className="mt-2 col-md-12">
-            <div className="row card bg-blue3">
+            <div className="row card bg-white-shadow">
               <div className="card-body">
                 <h1>
                   <i className="fa fa-laptop"></i>
@@ -164,7 +164,7 @@ const Index = () => {
           </div>
           {/**Education */}
           <div id="education" className="mt-2 col-md-12">
-            <div className="row card bg-blue2">
+            <div className="row card bg-white-shadow">
               <div className="card-body">
                 <h1>
                   <i className="fa fa-graduation-cap"></i>
@@ -185,7 +185,7 @@ const Index = () => {
 
           {/**Certifications */}
           <div id="certifications" className="mt-2 col-md-12">
-            <div className="row card bg-blue4">
+            <div className="row card bg-white-shadow">
               <div className="card-body">
                 <h1>
                   <i className="fa fa-trophy"></i>
@@ -204,7 +204,7 @@ const Index = () => {
             </div>
           </div>
 
-          {/**Portfolio  
+          {/**Portfolio*/}
 
           <div id="projects" className="mt-2 col-md-12">
             <div className="row card card-body bg-blue5">
@@ -218,7 +218,7 @@ const Index = () => {
                   </h5>
                 </div>
                 {projects.map((project, i) => (
-                  <Project project={project} key={i} index={i} />
+                  <Project project={project} qty={projects.length} key={i} index={i} />
                 ))}
               </div>
               <div className="row">
@@ -231,7 +231,7 @@ const Index = () => {
             </div>
             
           </div>
-        */}
+      
         </div>
       </div>
     </Layout>

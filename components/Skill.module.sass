@@ -1,25 +1,27 @@
 
 .toggle_skill
   width: 100%
-  background: #C9DBE9
+  background: #e6f0f3
   color: #7197A4
   border: none
   &:hover
-    background: #adc1d0 !important
-    color: #316371
+    background: transparent !important
+    color: #45666f
+    transform: scale(1.05)
   &:active,&:focus,&visited
-    background: #C9DBE9
+    background: #e6f0f3
     color: #7197A4
   &.learning
     width: 100%
-    background: #a3beca
+    background: #e6f0f3
     color: #265969
     border: none
     &:hover
-      background: #adc1d0 !important
-      color: #316371
+      background: transparent !important
+      color: #45666f
+      transform: scale(1.05)
     &:active,&:focus,&visited
-      color: #251805
+      color: #7197A4
 
      
   h5
@@ -32,12 +34,15 @@
       width: 100%
   &.empty
     cursor: default !important
+    color: #7197A4
     &:hover,&:active,&:focus,&visited
+      color: #7197A4
       background-color: transparent !important
       border-color: transparent !important
       box-shadow: none
+      transform: none
 
-$bg: #C9DBE9
+$bg: #f7fbff
 $text-color: #C9DBE9
 $bg2: #20216e
 $text-color2: #973497

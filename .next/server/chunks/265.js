@@ -23,7 +23,7 @@ const Footer = () => /*#__PURE__*/jsx_runtime_.jsx("footer", {
     className: "bg-dark text-light text-center",
     children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
       className: "container p-4",
-      children: [/*#__PURE__*/jsx_runtime_.jsx("h1", {
+      children: [/*#__PURE__*/jsx_runtime_.jsx("h3", {
         children: " Lucas Eichhorn \xA9 Portfolio"
       }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("p", {
         children: ["2015 - ", new Date().getFullYear()]
