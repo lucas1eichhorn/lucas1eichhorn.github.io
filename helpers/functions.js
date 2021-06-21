@@ -10,3 +10,15 @@ export function getInfoGitHub() {
         })
 
 }
+
+export function getProjectsGitHub() {
+    return axios.get(`https://api.github.com/users/lucas1eichhorn/repos`)
+        .then(res => {
+            const statusCode = res.status > 200 ? res.status : false;
+            return {
+                projects: res.data,
+                statusCode
+            }
+        })
+
+}
