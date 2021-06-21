@@ -1,32 +1,32 @@
 import { Link } from "react-scroll";
-import  NextLink  from "next/link";
+import NextLink from "next/link";
 import Collapse from "react-bootstrap/Collapse";
 import { Button } from "react-bootstrap";
 import { useState } from "react";
-const Navbar = ( {menu = true}) => {
+const Navbar = ({ menu = true }) => {
   const [open, setOpen] = useState(false);
   return (
     <nav className="navbar navbar-dark bg-blue1">
       <div className="container">
-        <Link href="/">
+        <NextLink href="/">
           <a className="navbar-brand">Lucas Eichhorn <br></br>
-          <small>Engineer &amp; FullStack Developer</small></a>
-        </Link>
-{ menu &&
-        <Button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          onClick={() => setOpen(!open)}
-          aria-expanded={open}
-          aria-label="Toggle navigation"
-          variant="link"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </Button>
-}
+            <small>Engineer &amp; FullStack Developer</small></a>
+        </NextLink>
+        {menu &&
+          <Button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            onClick={() => setOpen(!open)}
+            aria-expanded={open}
+            aria-label="Toggle navigation"
+            variant="link"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </Button>
+        }
         <Collapse
           in={open}
           className="collapse navbar-collapse"
@@ -63,7 +63,7 @@ const Navbar = ( {menu = true}) => {
                 smooth={true}
                 onClick={() => setOpen(!open)}
               >
-                <a className="nav-link">Education</a>
+                Education
               </Link>
             </li>
             <li className="nav-item">

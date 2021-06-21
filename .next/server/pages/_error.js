@@ -1,36 +1,116 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (function() {
 var exports = {};
-exports.id = "pages/_error";
-exports.ids = ["pages/_error"];
+exports.id = 820;
+exports.ids = [820];
 exports.modules = {
 
-/***/ "../next-server/lib/head":
-/*!****************************************************!*\
-  !*** external "next/dist/next-server/lib/head.js" ***!
-  \****************************************************/
-/***/ (function(module) {
+/***/ 591:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-module.exports = require("next/dist/next-server/lib/head.js");;
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5282);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5275);
+
+
+
+
+const _error = ({
+  statusCode
+}) => {
+  return /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__/* .default */ .Z, {
+    children: statusCode ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+      className: "text-center",
+      children: ["Could not load my GitHub page. Status Code ", statusCode]
+    }) : /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+      className: "text-center",
+      children: "Could not load my GitHub page"
+    })
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (_error);
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 4058:
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("classnames");;
+
+/***/ }),
+
+/***/ 8417:
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("next/dist/next-server/lib/router-context.js");;
+
+/***/ }),
+
+/***/ 2238:
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("next/dist/next-server/lib/router/utils/get-asset-path-from-route.js");;
+
+/***/ }),
+
+/***/ 6731:
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("next/router");;
+
+/***/ }),
+
+/***/ 3825:
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("nprogress");;
+
+/***/ }),
+
+/***/ 9297:
 /***/ (function(module) {
 
 "use strict";
 module.exports = require("react");;
+
+/***/ }),
+
+/***/ 9226:
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("react-bootstrap");;
+
+/***/ }),
+
+/***/ 9810:
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("react-bootstrap/Collapse");;
+
+/***/ }),
+
+/***/ 3783:
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("react-scroll");;
+
+/***/ }),
+
+/***/ 5282:
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("react/jsx-runtime");;
 
 /***/ })
 
@@ -41,7 +121,7 @@ module.exports = require("react");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-var __webpack_exports__ = __webpack_require__.X(0, ["vendors-node_modules_next_dist_pages__error_js"], function() { return __webpack_exec__("./node_modules/next/dist/pages/_error.js"); });
+var __webpack_exports__ = __webpack_require__.X(0, [664,265], function() { return __webpack_exec__(591); });
 module.exports = __webpack_exports__;
 
 })();

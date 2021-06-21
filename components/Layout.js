@@ -4,10 +4,10 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import NProgress from 'nprogress'
 import classNames from 'classnames'
-const Layout = ({ children, footer = true, dark = false, menu=true }) => {
+const Layout = ({ children, footer = true, dark = false, menu = true }) => {
     const router = useRouter()
     useEffect(() => {
-        console.log("cargo")
+
         const handleRouteChange = url => {
             console.log(url)
             NProgress.start()
@@ -21,7 +21,7 @@ const Layout = ({ children, footer = true, dark = false, menu=true }) => {
     return (
         <div className={classNames({ 'bg-dark': dark })}>
 
-            <Navbar menu={menu}/>
+            <Navbar menu={menu} />
             <main className="container py-4">
                 {children}
             </main>

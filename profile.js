@@ -2,7 +2,7 @@ export const skills = [
     {
         skill: 'PHP',
         percentage: '80',
-        subskills: ['Laravel', 'Slim Framework','Xinergia Adhoc Framework']
+        subskills: ['Laravel', 'Slim Framework', 'Xinergia Adhoc Framework']
     },
     {
         skill: 'HTML & CSS',
@@ -13,9 +13,9 @@ export const skills = [
     {
         skill: 'Javascript',
         percentage: '80',
-        subskills: ['jQuery', 'ES5 / ES6', 'Typescript','React','Angular']
+        subskills: ['jQuery', 'ES5 / ES6', 'Typescript', 'React', 'Angular']
     },
-  
+
     {
         skill: 'Nodejs',
         percentage: '70',
@@ -116,41 +116,42 @@ export const languajes = [
 export const experiences = [
     {
         company: "DoctorPlus SAS",
-        skills: "PHP + HTML + jQuery + CSS + MySQL + AWS Admin ",
         from: "May 2020",
         role: "CTO & Fullstack Developer",
         description: `DoctorPlus is French startup that provides an e-health solution with well-being programs. Through video consultations it offers doctors and patients a platform to achieve remote medical consultations.
         This project started a few years ago, while I was working at the Xinergia consulting firm developing the application for Argentina, and some years later I got involved again to develop the product in France and even in Morocco in a future. 
         I have a huge variety of tasks here. In my role as a lead full stack developer, I work from analysis with the product owner to software implementations and even AWS Cloud management. 
         `,
+        skills: "PHP, SQL, HTML, CSS, Javascript, jQuery, AWS Cloud Admin, API REST, Git"
     },
     {
         company: "MercadoLibre",
-        skills: "React + Node JS",
         from: "Ene 2020",
         to: "May 2020",
         role: "Front end & middle end developer",
         description: `MercadoLibre is the #1 marketplace in Latin America and one of the top 10 most visited e-commerce websites.
         I was part of the team that develops tools for sellers, more specifically the offers section that allows user set promotions in their products.
-        Here I assumed the position of front/middle end developer. I used to work with JavaScript technologies such as React (server side rendering framework) or Node JS (express based framework), and additionally adopting agile methodologies like Scrum with my team.`    },
+        Here I assumed the position of front/middle end developer. I used to work with JavaScript technologies such as React (server side rendering framework) or Node JS (express based framework), and additionally adopting agile methodologies like Scrum with my team.`,
+        skills: "React, Node JS, Git, GraphQL, API REST, JEST, Enzyme, WebDriver IO"
+    },
     {
         company: "NEORIS",
-        skills: "React + Angular + NodeJS + Java",
         from: "Jun 2019",
         to: "Ene 2020",
         role: "Fullstack Developer",
         description: `I worked in the argentinian subsidiary of this international software factory, specifically in the area of financial services for the private banking section. 
-        Firstly my role was as fullstack developer, and then I was trained as a Scrum Master (National Technological University), to coordinate the work team that carried out projects with Angular and Java technologies.`
+        Firstly my role was as fullstack developer, and then I was trained as a Scrum Master (National Technological University), to coordinate the work team that carried out projects with Angular and Java technologies.`,
+        skills: "Angular+React, HTML, CSS, Scrum Master, Git, API REST, Cucumber, Selenium, Robot Framework"
     },
     {
         company: "Xinergia",
-        skills: "PHP + HTML + JQUERY + CSS + MySQL/Oracle/Postgre",
         from: "Nov 2015",
         to: "Jun 2019",
         role: "Fullstack Developer",
         description: `At the beginning of my professional career while I was at univeristy, I started working in this company and forming my profile as a fullstack web developer.
         Along many years I was in charge of analyze, design and implement a plenty of web systems, mobile applications, creation of e-commerce and advertising websites for different clients. 
-        This tasks allowed customers to improve their internal proceses, management and brand positioning.`
+        This tasks allowed customers to improve their internal proceses, management and brand positioning.`,
+        skills: "PHP, HTML, CSS, Javascript, jQuery, ionic 3,SQL (MySQL/Oracle/Postgre), Database Admin, API REST, SVN"
     },
 
 ]
@@ -158,32 +159,32 @@ export const experiences = [
 export const projects = [
     {
         name: "DoctorPlus",
-        subtitle:"e-health & well-being",
+        subtitle: "e-health & well-being",
         description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
-        image: "doctorplus.png"
+        image: "doctorplus.jpg"
     },
     {
         name: "Serendipia Deco",
         subtitle: "e-commerce",
         description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
-        image: "serendipia.png"
+        image: "serendipia.jpg"
     },
     {
         name: "Cristian Brunet",
         subtitle: "Wedding photographer",
         description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
-        image: "cristian-brunet1.png"
+        image: "cristian-brunet1.jpg"
     },
     {
         name: "KeyWi",
-        subtitle:"Smart lock with Arduino ",
+        subtitle: "Smart lock with Arduino ",
         description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
         image: "keywi2.jpg"
     }, {
         name: "Taxi Tracker",
-        subtitle:"Starter Ionic project",
+        subtitle: "Starter Ionic project",
         description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
-        image: "taxi-app.png"
+        image: "taxi-app.jpg"
     },
-   
+
 ]

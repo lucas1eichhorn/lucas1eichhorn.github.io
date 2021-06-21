@@ -11,6 +11,8 @@ import {
 } from "../profile";
 import Skill from "../components/Skill";
 import Link from "next/link";
+import Bounce from 'react-reveal/Bounce';
+import Zoom from 'react-reveal/Zoom';
 import { Button, Collapse } from "react-bootstrap";
 import Project from "../components/Project";
 const Index = () => {
@@ -22,54 +24,63 @@ const Index = () => {
         <div className="col-md-12">
           <div className="card card-body main-banner">
             <div className="row">
+
               <div className="col-md-8">
-                <h3>Hi there!</h3>
+                <Bounce top cascade>
+                  <h3>Hi there!</h3>
+                </Bounce>
                 <div className="row">
-                  <div className="col-md-6">
-                    <p>
-                      Welcome to my own web portfolio. I&apos;m planning to
-                      share here my skills, jobs experiences and projects.
-                    </p>
-                    <p>
-                      Sincerely I believe that have a huge variety of skills
-                      that I have been developing across my career for solving
-                      problems. Some of them are more mastered than others.
-                    </p>
-                  </div>
-                  <div className="col-md-6">
-                    <p>
-                      I love to constantly learn and apply new knowledge.
-                      Therefore, I made this web by myself, using React and Next
-                      JS framework.
-                    </p>
-                    <h5 className="mt-4">
-                      <i className="fa fa-map-marker"></i> &nbsp; Santa Fe,
-                      Argentina
-                    </h5>
-                    <a
-                      className="btn btn-light"
-                      href="https://www.linkedin.com/in/lucas-eichhorn/"
-                    >
-                      Contact me!
-                    </a>
-                    <a
-                      className="btn btn-secondary ml-2"
-                      href="files/CV_Lucas_Eichhorn_2021.pdf"
-                      target="_blank"
-                    >
-                      Download my CV <i className="fa fa-download"></i>
-                    </a>
-                  </div>
+                  <Bounce top cascade>
+                    <div className="col-md-6">
+                      <p>
+                        Welcome to my own web portfolio. I&apos;m planning to
+                        share here my skills, jobs experiences and projects.
+                      </p>
+                      <p>
+                        Sincerely I believe that have a huge variety of skills
+                        that I have been developing across my career for solving
+                        problems. Some of them are more mastered than others.
+                      </p>
+                    </div>
+                    <div className="col-md-6">
+                      <p>
+                        I love to constantly learn and apply new knowledge.
+                        Therefore, I made this web by myself, using React and Next
+                        JS framework.
+                      </p>
+                      <h5 className="mt-4">
+                        <i className="fa fa-map-marker"></i> &nbsp; Santa Fe,
+                        Argentina
+                      </h5>
+                      <a
+                        className="btn btn-light"
+                        href="https://www.linkedin.com/in/lucas-eichhorn/"
+                      >
+                        Contact me!
+                      </a>
+                      <a
+                        className="btn btn-secondary ml-2"
+                        href="files/CV_Lucas_Eichhorn_2021.pdf"
+                        target="_blank"
+                      >
+                        Download my CV <i className="fa fa-download"></i>
+                      </a>
+                    </div>
+                  </Bounce>
                 </div>
-               
+
               </div>
-              <div className="col-md-4">
-                <img
-                  src="images/lucas-profile.png"
-                  alt="Lucas Eichhorn profile picture"
-                  className="img-fluid img-profile"
-                />
-              </div>
+
+              <Zoom right>
+
+                <div className="col-md-4">
+                  <img
+                    src="images/lucas-profile.png"
+                    alt="Lucas Eichhorn profile picture"
+                    className="img-fluid img-profile"
+                  />
+                </div>
+              </Zoom>
             </div>
           </div>
         </div>
@@ -120,10 +131,10 @@ const Index = () => {
                   <i className="fa fa-laptop"></i>
                   <strong>Job experiences</strong>
                 </h1>
-                <ul className="pl-4">
+                <ul className="pl-1">
                   {experiences.map(
                     (
-                      { company, skill, from, to, role, description },
+                      { company, skill, from, to, role, description, skills },
                       index
                     ) => (
                       <li key={index} className="job-item">
@@ -152,6 +163,7 @@ const Index = () => {
                               id={`collapseJob-${index}`}
                             >
                               {description}
+                              <p className="pt-2">Tech Stack: {skills} </p>
                             </div>
                           </Collapse>
                         )}
@@ -170,7 +182,7 @@ const Index = () => {
                   <i className="fa fa-graduation-cap"></i>
                   <strong>Education</strong>
                 </h1>
-                <ul className="pl-4">
+                <ul className="pl-1">
                   {education.map(({ title, subtitle, period }, index) => (
                     <li key={index}>
                       <h3>{title}</h3>
@@ -191,7 +203,7 @@ const Index = () => {
                   <i className="fa fa-trophy"></i>
                   <strong>Certifications</strong>
                 </h1>
-                <ul className="pl-4">
+                <ul className="pl-1">
                   {certifications.map(({ title, subtitle, period }, index) => (
                     <li key={index}>
                       <h3>{title}</h3>
@@ -203,39 +215,42 @@ const Index = () => {
               </div>
             </div>
           </div>
-   </div>
-     
-          {/**Portfolio*/}
+        </div>
 
-          <div id="projects" className="mt-2 col-md-12">
-            <div className="row card card-body bg-blue5">
-              <div className="row">
-                <div className="col-md-12">
-                  <h1 className="text-center text-light">Portfolio</h1>
-                  <h5 className="text-center text-light">
-                    Most of my projects were developed working for private
-                    companies. Unluckily I cannot share them, but here you can check
-                    some projects and even practical apps
-                  </h5>
-                </div>
-                {projects.map((project, i) => (
-                  <Project project={project} qty={projects.length} key={i} index={i} />
-                ))}
+      </div>
+      <div className="mt-2 row">
+        {/**Portfolio*/}
+
+        <div id="projects" className="mt-2 col-md-12">
+          <div className="row card card-body bg-blue5">
+            <div className="row">
+              <div className="col-md-12">
+                <h1 className="text-center text-light">Portfolio</h1>
+                <h5 className="text-center text-light">
+                  Most of my projects were developed working for private
+                  companies. Unluckily I cannot share them, but here you can check
+                  some projects and even practical apps
+                </h5>
               </div>
-              <div className="row">
-                <div className="col-md-12 text-center mt-4">
-                  <Link href="/github">
-                    <a className="btn btn-outline-light">More projects</a>
-                  </Link>
-                </div>
+              {projects.map((project, i) => (
+                <Project project={project} qty={projects.length} key={i} index={i} />
+              ))}
+            </div>
+            <div className="row">
+              <div className="col-md-12 text-center mt-4">
+                <Link href="/github">
+                  <a className="btn btn-outline-light">More projects</a>
+                </Link>
               </div>
             </div>
-            
           </div>
-      
-     
+
+        </div>
+
+
+
       </div>
-    </Layout>
+    </Layout >
   );
 };
 

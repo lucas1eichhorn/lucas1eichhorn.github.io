@@ -6,7 +6,7 @@ import classNames from "classnames";
 
 const Skill = ({ skill, type, index }) => {
   const [open, setOpen] = useState(false);
-  console.log("type",type);
+ 
   // a random int to choose classname
   const classRandomInt = ((index + 10) % 3) + 1;
   return (

@@ -29,10 +29,12 @@ const GitHub = () => {
         <div className="col-md-4 offset-md-4">
           <div className="card card-body text-center">
             <h1>{user.name}</h1>
+            <h3>{user.login}</h3>
             <img
               className="rounded-circle"
               src={user.avatar_url}
               alt={user.name}
+              style={{ 'minHeight': '250px' }}
             />
             <p>{user.bio}</p>
             <a

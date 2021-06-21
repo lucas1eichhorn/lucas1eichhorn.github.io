@@ -1,16 +1,16 @@
 import { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
-const Project = ({ project,qty, index }) => {
+const Project = ({ project, qty, index }) => {
   const { name, description, subtitle, image } = project;
   const [show, setShow] = useState(false);
-console.log("qty",qty);
-let column;
-if(qty%2==0){
-   column="col-md-4";
-}else{
-   
-   column=index%6<2?"col-md-6":"col-md-4";
-}
+
+  let column;
+  if (qty % 2 == 0) {
+    column = "col-md-4";
+  } else {
+
+    column = index % 6 < 2 ? "col-md-6" : "col-md-4";
+  }
   return (
     <div className={`${column} p-2 item`} key={index}>
       <div className="card h-100">
