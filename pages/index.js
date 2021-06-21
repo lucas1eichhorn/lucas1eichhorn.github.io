@@ -105,7 +105,7 @@ const Index = () => {
               {languajes.map(({ name, level }, i) => (
                 <div key={i}>
                   <h5>{name}</h5>
-                  <p> {level}</p>
+                  <h6 className="pl-2"> {level}</h6>
                 </div>
               ))}
             </div>
@@ -195,7 +195,7 @@ const Index = () => {
                   {certifications.map(({ title, subtitle, period }, index) => (
                     <li key={index}>
                       <h3>{title}</h3>
-                      <h4>{subtitle}</h4>
+                      <h5>{subtitle}</h5>
                       <p>{period}</p>
                     </li>
                   ))}
@@ -203,7 +203,8 @@ const Index = () => {
               </div>
             </div>
           </div>
-
+   </div>
+     
           {/**Portfolio*/}
 
           <div id="projects" className="mt-2 col-md-12">
@@ -213,8 +214,8 @@ const Index = () => {
                   <h1 className="text-center text-light">Portfolio</h1>
                   <h5 className="text-center text-light">
                     Most of my projects were developed working for private
-                    companies, so I cannot share them. But here you can check
-                    some and even practical apps
+                    companies. Unluckily I cannot share them, but here you can check
+                    some projects and even practical apps
                   </h5>
                 </div>
                 {projects.map((project, i) => (
@@ -232,7 +233,7 @@ const Index = () => {
             
           </div>
       
-        </div>
+     
       </div>
     </Layout>
   );

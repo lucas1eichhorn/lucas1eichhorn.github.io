@@ -10,7 +10,7 @@ const Skill = ({ skill, type, index }) => {
   // a random int to choose classname
   const classRandomInt = ((index + 10) % 3) + 1;
   return (
-    <div>
+    <div className="pb-2">
       <Button
         className={`${styles.toggle_skill}  ${classNames({
           [`${styles.empty}`]: !skill.subskills,
@@ -20,7 +20,7 @@ const Skill = ({ skill, type, index }) => {
         aria-expanded={open}
         variant="light"
       >
-        <div className="py-3 text-left" style={{ width: "fit-content" }}>
+        <div className="text-left" style={{ width: "fit-content" }}>
           <h5
             className={classNames({
               [`${styles.typing}`]: true,

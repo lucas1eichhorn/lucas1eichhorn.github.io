@@ -139,8 +139,8 @@ export const experiences = [
         from: "Jun 2019",
         to: "Ene 2020",
         role: "Fullstack Developer",
-        description: `I worked in the argentinian subsidiario of this software factory, specifically in the area of financial services for the private banking section. 
-        My role was as fullstack developer, and then I trained as a Scrum Master (National Technological University), to coordinate the work team that carried out projects with Angular and Java technologies..`
+        description: `I worked in the argentinian subsidiary of this international software factory, specifically in the area of financial services for the private banking section. 
+        Firstly my role was as fullstack developer, and then I was trained as a Scrum Master (National Technological University), to coordinate the work team that carried out projects with Angular and Java technologies.`
     },
     {
         company: "Xinergia",
@@ -157,6 +157,12 @@ export const experiences = [
 
 export const projects = [
     {
+        name: "DoctorPlus",
+        subtitle:"e-health & well-being",
+        description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
+        image: "doctorplus.png"
+    },
+    {
         name: "Serendipia Deco",
         subtitle: "e-commerce",
         description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
@@ -167,11 +173,6 @@ export const projects = [
         subtitle: "Wedding photographer",
         description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
         image: "cristian-brunet1.png"
-    }, {
-        name: "DoctorPlus",
-        subtitle:"e-health & well-being",
-        description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
-        image: "doctorplus.png"
     },
     {
         name: "KeyWi",

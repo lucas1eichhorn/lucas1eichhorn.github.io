@@ -36,6 +36,9 @@ html {
   border-top-color: #ffbb00;
   border-left-color: #ffbb00;
 }
+ul{
+  list-style: none;
+}
 /*banner*/
 .main-banner {
   /*background: linear-gradient(to right, #373a3c, black);*/
@@ -123,3 +126,4 @@ h1 i {
 .img-profile{
   max-height: 400px;
 }
+
