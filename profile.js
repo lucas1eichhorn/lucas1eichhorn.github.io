@@ -203,7 +203,7 @@ export const projects = [
     }, {
         name: "Taxi Tracker",
         subtitle: "Starter Ionic project",
-        description: `It is probably not one of the bigges projects that I have done, but it represents all the small applications developed while learning mobile application development with Ionic.
+        description: `It is probably not one of the bigges projects that I have done, but it represents all the small apps developed while learning mobile application development with Ionic.
         
         This app was part of an Udemy course. It consists on a tracking system for taxi company using mobile phones using GPS positioning and real time events on Google Firebase.
         `,
