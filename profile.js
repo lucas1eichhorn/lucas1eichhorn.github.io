@@ -2,12 +2,12 @@ export const skills = [
     {
         skill: 'PHP',
         percentage: '80',
-        subskills: ['Laravel', 'Slim Framework', 'Xinergia Adhoc Framework']
+        subskills: ['Xinergia Adhoc Framework', 'Laravel', 'Slim Framework']
     },
     {
         skill: 'HTML & CSS',
         percentage: '90',
-        subskills: ['Bootstrap 3 & 4', 'Sass preprocessor', 'Less preprocessor']
+        subskills: ['Bootstrap 3 & 4', 'Sass/Less preprocessors']
 
     },
     {
@@ -17,7 +17,7 @@ export const skills = [
     },
 
     {
-        skill: 'Nodejs',
+        skill: 'Node JS',
         percentage: '70',
         subskills: ['Express', 'Sails']
     },
@@ -45,7 +45,7 @@ export const skills = [
     {
         skill: 'Databases',
         percentage: '80',
-        subskills: ['MySQL', 'MariaDB', 'PostgreSQL', 'Oracle']
+        subskills: ['MySQL/MariaDB', 'PostgreSQL', "Mongo DB", 'Oracle']
     }
 
 ]
@@ -68,6 +68,11 @@ export const learning = [
 
 export const education = [
     {
+        title: 'Master in Big Data Science',
+        subtitle: 'Universidad de Navarra (Madrid)',
+        period: '2021 - now',
+    },
+    {
         title: 'Information system engineer',
         subtitle: 'National Technological University (Argentina)',
         period: '2012 - 2019',
@@ -80,6 +85,13 @@ export const education = [
 ]
 
 export const certifications = [
+
+    {
+        title: 'Machine Learning & Data Science on Python',
+        subtitle: 'Udemy',
+        period: 'Apr 2021',
+        url:'https://www.udemy.com/certificate/UC-c4366ef1-6cf1-48eb-bd02-d6571f86e114/'
+    },
     {
         title: 'AWS Cloud Practitioner Essentials',
         subtitle: 'Amazon Web Services (AWS)',
