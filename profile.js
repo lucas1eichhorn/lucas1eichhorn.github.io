@@ -172,30 +172,53 @@ export const projects = [
     {
         name: "DoctorPlus",
         subtitle: "e-health & well-being",
-        description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
+        description: `This project is part of a French startup that provides an e-health solution with well-being programs. It offers doctors and patients a platform to achieve remote medical consultations using the power of videocalls over the WebRTC technologies.
+
+        WebRTC (Web real-time communications) is a open source technology that allows websites to capture audio and video, as well as exchange arbitrary data between browsers without the need for an intermediary.
+        
+        This app is fully integrated with third party services such as Stripe for payments, SendGrid for mailing, and even AWS SNS (Simple Notification Services) to notify events between users.
+        `,
         image: "doctorplus.jpg"
     },
     {
         name: "Serendipia Deco",
         subtitle: "e-commerce",
-        description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
+        description: `This project is an ecommerce for a home decoration store where customers can access an online store to browse through, and place orders for products or services via their own devices.
+        
+        The Covid-19 pandemic has increased the need for eCommerce with new consumer habits and has led this business to implement online commerce.
+        
+        Is a solution implemented with the fully customizable and open source Woocommerce platform built for WordPress. 
+        `,
         image: "serendipia.jpg"
     },
     {
         name: "Cristian Brunet",
         subtitle: "Wedding photographer",
-        description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
+        description: `This was a project developed for an enthusiastic wedding photographer who wants to share the incredible moments captured with his camera on his own website.
+        
+        This website has a set of tools and functions that allow the best management option for a professional photographer.
+        
+        Developed with Laravel, one of the most popular MVC frameworks within the PHP ecosystem. Laravel is a flexible framework that allows to develop much faster and without so many demands of good practices at the beginning.
+        `,
         image: "cristian-brunet1.jpg"
     },
     {
         name: "KeyWi",
         subtitle: "Smart lock with Arduino ",
-        description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
+        description: `KeyWi is an IoT solution that consists of an intelligent lock with a system embedded in a Raspeberry Pi powered by mobile devices with NFC service.  This was my final degree project at the university.
+
+        The project seeks to provide convenience to the user, with the capacity for connectivity and data processing in IoT devices and to improve security aspects in electronic locks.
+        
+        The project has a mobile application that works as a key transmitting by NFC a unique code that is interpreted by an intelligent lock (Raspberry Pi inside) that allows / denies the opening of a door
+        `,
         image: "keywi2.jpg"
     }, {
         name: "Taxi Tracker",
         subtitle: "Starter Ionic project",
-        description: "lorem ipsum solor sit amer conseterur adisipsicion elit. Sint excepuri es explicabo. ",
+        description: `It is probably not one of the bigges projects that I have done, but it represents all the small apps developed while learning mobile application development with Ionic.
+        
+        This app was part of an Udemy course. It consists on a tracking system for taxi company using mobile phones using GPS positioning and real time events on Google Firebase.
+        `,
         image: "taxi-app.jpg"
     },
 

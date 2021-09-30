@@ -36,7 +36,7 @@ html {
   border-top-color: #ffbb00;
   border-left-color: #ffbb00;
 }
-ul{
+ul {
   list-style: none;
 }
 /*banner*/
@@ -59,6 +59,9 @@ h1 i {
 .job-description {
   white-space: pre-line;
   line-height: 1.8;
+}
+.project-description {
+  white-space: pre-line;
 }
 
 .job-item button {
@@ -83,7 +86,7 @@ h1 i {
 .txt-blue1 {
   color: #2a5969;
 }
-.bg-blue5{
+.bg-blue5 {
   background: #5a6a75;
 }
 .btn-secondary {
@@ -118,12 +121,20 @@ h1 i {
   .h4 {
     font-size: 1.2rem;
   }
-  .content-wrapper{
+  .content-wrapper {
     flex-direction: column-reverse;
   }
 }
 
-.img-profile{
+.img-profile {
   max-height: 400px;
 }
+/*projects styling*/
+.img-overflow:hover {
+  overflow: hidden;
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+
 

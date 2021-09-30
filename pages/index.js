@@ -34,7 +34,8 @@ const Index = () => {
                     <div className="col-md-6">
                       <p>
                         Welcome to my own web portfolio. I&apos;m planning to
-                        share here my skills, jobs experiences and projects.
+                        share here my skills, jobs experiences and projects. 
+                        It&apos;s always under construction, like life itself.
                       </p>
                       <p>
                         Sincerely I believe that have a huge variety of skills
@@ -115,8 +116,8 @@ const Index = () => {
               </h1>
               {languajes.map(({ name, level }, i) => (
                 <div key={i}>
-                  <h5>{name}</h5>
-                  <h6 className="pl-2"> {level}</h6>
+                  <h4>{name}</h4>
+                  <h5 className="pl-2"> {level}</h5>
                 </div>
               ))}
             </div>

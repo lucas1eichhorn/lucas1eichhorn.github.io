@@ -8,7 +8,6 @@ const Project = ({ project, qty, index }) => {
   if (qty % 2 == 0) {
     column = "col-md-4";
   } else {
-
     column = index % 6 < 2 ? "col-md-6" : "col-md-4";
   }
   return (
@@ -17,22 +16,25 @@ const Project = ({ project, qty, index }) => {
         <Button
           variant="transparent"
           className="text-left p-0"
-          onClick={() => setShow(true)}
+          onClick={() => setShow(!show)}
         >
-          <div className="overflow">
-            <img
-              src={`images/projects/${image}`}
-              alt={name}
-              className="card-img-top"
-            />
-          </div>
           <div className="card-body">
-            <h3>{name}</h3>
+            <div className="row">
+              <div className="overflow">
+                <img
+                  src={`images/projects/${image}`}
+                  alt={name}
+                  className="card-img-top"
+                />
+              </div>
+            </div>
+            <h3 className="mt-3">{name}</h3>
             <h6>{subtitle}</h6>
-            <p>{description}</p>
+            
           </div>
         </Button>
       </div>
+
       <Modal
         show={show}
         onHide={() => setShow(false)}
@@ -41,12 +43,17 @@ const Project = ({ project, qty, index }) => {
       >
         <Modal.Header closeButton>
           <Modal.Title id="example-custom-modal-styling-title">
-            {name}
-            <h6>{subtitle}</h6>
+            <h3>{name}</h3>
+            <h4>{subtitle}</h4>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>{description}</p>
+          <p className="project-description">{description}</p>
+          <img
+            src={`images/projects/${image}`}
+            alt={name}
+            className="img-fluid my-4"
+          />
         </Modal.Body>
       </Modal>
     </div>
