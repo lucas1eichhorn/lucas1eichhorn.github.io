@@ -71,7 +71,7 @@ const Navbar = ({
         children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("a", {
           className: "navbar-brand",
           children: ["Lucas Eichhorn ", /*#__PURE__*/jsx_runtime_.jsx("br", {}), /*#__PURE__*/jsx_runtime_.jsx("small", {
-            children: "Engineer & FullStack Developer"
+            children: "Systems Engineer & becoming Data Scientist"
           })]
         })
       }), menu && /*#__PURE__*/jsx_runtime_.jsx(external_react_bootstrap_.Button, {

@@ -52,7 +52,7 @@ export const skills = [
 
 export const learning = [
     {
-        skill: 'Data Science',
+        skill: 'Data Science & Dig Data',
         percentage: '20'
     },
     {
@@ -85,12 +85,17 @@ export const education = [
 ]
 
 export const certifications = [
-
+    {
+        title: 'Data Engineering Bootcamp',
+        subtitle: 'Datademia.es',
+        period: '2021',
+        url: ''
+    },
     {
         title: 'Machine Learning & Data Science on Python',
         subtitle: 'Udemy',
         period: 'Apr 2021',
-        url:'https://www.udemy.com/certificate/UC-c4366ef1-6cf1-48eb-bd02-d6571f86e114/'
+        url: 'https://www.udemy.com/certificate/UC-c4366ef1-6cf1-48eb-bd02-d6571f86e114/'
     },
     {
         title: 'AWS Cloud Practitioner Essentials',
@@ -121,7 +126,7 @@ export const languajes = [
     },
     {
         name: 'English',
-        level: 'B1 Intermediate (Studies in course: First)'
+        level: 'B1 Intermediate (Studies in course: FCE)'
     },
 ]
 
@@ -151,7 +156,7 @@ export const experiences = [
         from: "Jun 2019",
         to: "Ene 2020",
         role: "Fullstack Developer",
-        description: `I worked in the argentinian subsidiary of this international software factory, specifically in the area of financial services for the private banking section. 
+        description: `I worked in the Argentinian subsidiary of this international software factory, specifically in the area of financial services for the private banking section. 
         Firstly my role was as fullstack developer, and then I was trained as a Scrum Master (National Technological University), to coordinate the work team that carried out projects with Angular and Java technologies.`,
         skills: "Angular+React, HTML, CSS, Scrum Master, Git, API REST, Cucumber, Selenium, Robot Framework"
     },
@@ -160,9 +165,9 @@ export const experiences = [
         from: "Nov 2015",
         to: "Jun 2019",
         role: "Fullstack Developer",
-        description: `At the beginning of my professional career while I was at univeristy, I started working in this company and forming my profile as a fullstack web developer.
+        description: `At the beginning of my professional career while I was at university, I started working in this company and forming my profile as a fullstack web developer.
         Along many years I was in charge of analyze, design and implement a plenty of web systems, mobile applications, creation of e-commerce and advertising websites for different clients. 
-        This tasks allowed customers to improve their internal proceses, management and brand positioning.`,
+        These tasks allowed customers to improve their internal processes, management and brand positioning.`,
         skills: "PHP, HTML, CSS, Javascript, jQuery, ionic 3,SQL (MySQL/Oracle/Postgre), Database Admin, API REST, SVN"
     },
 
@@ -204,7 +209,7 @@ export const projects = [
     },
     {
         name: "KeyWi",
-        subtitle: "Smart lock with Arduino ",
+        subtitle: "Smart lock with Raspberry PI",
         description: `KeyWi is an IoT solution that consists of an intelligent lock with a system embedded in a Raspeberry Pi powered by mobile devices with NFC service.  This was my final degree project at the university.
 
         The project seeks to provide convenience to the user, with the capacity for connectivity and data processing in IoT devices and to improve security aspects in electronic locks.

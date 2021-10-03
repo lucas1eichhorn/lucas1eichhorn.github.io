@@ -13,7 +13,7 @@ import Skill from "../components/Skill";
 import Link from "next/link";
 import Bounce from 'react-reveal/Bounce';
 import Zoom from 'react-reveal/Zoom';
-import { Button, Collapse } from "react-bootstrap";
+import { Button, Collapse, Dropdown } from "react-bootstrap";
 import Project from "../components/Project";
 const Index = () => {
   const [open, setOpen] = useState(false);
@@ -34,7 +34,7 @@ const Index = () => {
                     <div className="col-md-6">
                       <p>
                         Welcome to my own web portfolio. I&apos;m planning to
-                        share here my skills, jobs experiences and projects. 
+                        share here my skills, jobs experiences and projects.
                         It&apos;s always under construction, like life itself.
                       </p>
                       <p>
@@ -49,23 +49,35 @@ const Index = () => {
                         Therefore, I made this web by myself, using React and Next
                         JS framework.
                       </p>
-                      <h5 className="mt-4">
-                        <i className="fa fa-map-marker"></i> &nbsp; Santa Fe,
-                        Argentina
-                      </h5>
-                      <a
-                        className="btn btn-light"
-                        href="https://www.linkedin.com/in/lucas-eichhorn/"
-                      >
-                        Contact me!
-                      </a>
-                      <a
-                        className="btn btn-secondary ml-2"
-                        href="files/CV_Lucas_Eichhorn_2021.pdf"
-                        target="_blank"
-                      >
-                        Download my CV <i className="fa fa-download"></i>
-                      </a>
+                      <div className="row my-4 px-3 d-flex align-items-center">
+                        <i className="fa fa-2x fa-map-marker mr-2"></i>
+                        <h5>
+                          Living in Madrid, Spain<br></br>
+                          From Santa Fe, Argentina
+                        </h5>
+                      </div>
+
+                      <div className="row">
+                        <a
+                          className="btn btn-light"
+                          href="https://www.linkedin.com/in/lucas-eichhorn/"
+                        >
+                          Contact me!
+                        </a>
+                        <div className="dropdown show ml-3">
+
+                          <Dropdown>
+                            <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+                              Download my CV
+                            </Dropdown.Toggle>
+                            <Dropdown.Menu>
+                              <Dropdown.Item href="files/CV_Lucas_Eichhorn_2021_es.pdf" target="_blank">Spanish</Dropdown.Item>
+                              <Dropdown.Item href="files/CV_Lucas_Eichhorn_2021_en.pdf">English</Dropdown.Item>
+                            </Dropdown.Menu>
+                          </Dropdown>
+                        </div>
+                      </div>
+
                     </div>
                   </Bounce>
                 </div>

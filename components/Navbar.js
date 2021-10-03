@@ -10,7 +10,7 @@ const Navbar = ({ menu = true }) => {
       <div className="container">
         <NextLink href="/">
           <a className="navbar-brand">Lucas Eichhorn <br></br>
-            <small>Engineer &amp; FullStack Developer</small></a>
+            <small>Systems Engineer &amp; becoming Data Scientist</small></a>
         </NextLink>
         {menu &&
           <Button
