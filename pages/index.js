@@ -49,22 +49,22 @@ const Index = () => {
                         Therefore, I made this web by myself, using React and Next
                         JS framework.
                       </p>
-                      <div className="row my-4 px-3 d-flex align-items-center">
+                      <div className="my-4 px-3 d-flex align-items-center">
                         <i className="fa fa-2x fa-map-marker mr-2"></i>
-                        <h5>
+                        <h5 className="mx-2">
                           Living in Madrid, Spain<br></br>
                           From Santa Fe, Argentina
                         </h5>
                       </div>
 
-                      <div className="row">
+                      <div className="d-flex w-auto">
                         <a
-                          className="btn btn-light"
+                          className="btn btn-light w-auto mx-2"
                           href="https://www.linkedin.com/in/lucas-eichhorn/"
                         >
                           Contact me!
                         </a>
-                        <div className="dropdown show ml-3">
+                        <div className="dropdown show ml-3 w-auto mx-2">
 
                           <Dropdown>
                             <Dropdown.Toggle variant="secondary" id="dropdown-basic">

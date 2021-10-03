@@ -21,6 +21,12 @@ html {
   transform: scale(1.5);
 }
 
+@media (max-width: 430px) {
+  .navbar-brand {
+    max-width: 200px;
+    white-space: pre-line;
+  }
+}
 .nav-item {
   cursor: pointer;
   font-size: 16px;
@@ -133,8 +139,9 @@ h1 i {
 .img-overflow:hover {
   overflow: hidden;
 }
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
-
-
-
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
