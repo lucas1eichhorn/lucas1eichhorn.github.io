@@ -23,19 +23,25 @@ export default function Home() {
             <Hero />
             <IntroFeature />
             <About />
-            <PortfolioArea />
             <FunFact />
             <AwardArea />
             <Experience />
             <Education />
             <SkillArea />
+            {/**
+             
+             
+             
             <ServiceArea />
             <Pricing />
             <Testimonial />
             <Branding />
             <Contact />
             <BlogArea />
+            */} 
+            <PortfolioArea />
             <Footer />
+
         </>
     );
 }

@@ -59,16 +59,16 @@ export const experience = [
                 Years of <br /> Experience
             </>
         ),
-        x: 12,
+        x: 8,
     },
     {
         title: (
             <>
-                Total <br />
-                Clients
+                
+                Companies
             </>
         ),
-        x: "2K",
+        x: "5",
     },
     {
         title: (
@@ -77,7 +77,7 @@ export const experience = [
                 Completed
             </>
         ),
-        x: "4K",
+        x: "50",
     },
     {
         title: (
@@ -90,15 +90,13 @@ export const experience = [
     },
 ];
 
-export const awardInfo = [
+export const certificationsInfo = [
     {
-        logoUrl: "/images/award/award-logo1.png",
-        title: "Best Developer",
-        year: 2022,
-        association: "Developer Association",
-        location: "New York, Usa",
-        description:
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore.",
+        logoUrl: "/images/certifications/cert-logo1.png",
+        title: "Professional Cloud DevOps Engineer",
+        year: 2024,
+        association: "Google",
+        description: "Jenkins · Integración continua y entrega continua (CI/CD) · Bash · Git · Microservicios · Docker · Google Kubernetes Engine (GKE) · GitHub · Kubernetes · Terraform · Infraestructura como código (IaC)",
     },
     {
         logoUrl: "/images/award/award-logo2.png",

@@ -1,4 +1,4 @@
-import { awardInfo } from "@/data/site";
+import { certificationsInfo } from "@/data/site";
 import AwardAreaLine from "./ui/award-area-line";
 
 export default function AwardArea() {
@@ -11,23 +11,23 @@ export default function AwardArea() {
                             <span className="theme-color text-uppercase d-block mb-6">
                                 Success Stories
                             </span>
-                            <h2>Awards &amp; Achivements</h2>
+                            <h2>Licenses &amp; certifications</h2>
                         </div>
                     </div>
                 </div>
                 <div className="award-wrapper mt-70">
-                    {/* award info line start */}
-                    {awardInfo?.slice(0, 3).map((item, i) => (
+                    {/* certifications info line start */}
+                    {certificationsInfo?.slice(0, 3).map((item, i) => (
                         <AwardAreaLine
                             key={i}
                             data={item}
                             index={{
                                 i,
-                                length: awardInfo?.length - 1,
+                                length: certificationsInfo?.length - 1,
                             }}
                         />
                     ))}
-                    {/* award info line end */}
+                    {/* certifications info line end */}
                 </div>
             </div>
         </div>

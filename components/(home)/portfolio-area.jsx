@@ -17,7 +17,7 @@ export default function PortfolioArea() {
                                 <span className="theme-color text-uppercase d-block mb-6">
                                     Portfolio
                                 </span>
-                                <h2>My Recent Works</h2>
+                                <h2>Some Freelance Works</h2>
                             </div>
                         </div>
                     </div>

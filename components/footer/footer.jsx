@@ -78,29 +78,7 @@ export default function Footer() {
                                     </ul>
                                 </div>
                             </div>
-                            {/* /col */}
-                            <div className="col-xl-3  col-lg-4  col-md-12  col-sm-12 col-12">
-                                <div className="footer-widget pb-40">
-                                    <h4 className="mb-28 mt-2">Newsletter</h4>
-                                    <div className="newsletter-form">
-                                        <form action="#">
-                                            <div className="subscribe-info position-relative">
-                                                <input
-                                                    className="sub-name theme-border pl-25 pt-15 pb-15 pr-10 w-100 secondary-color2 border-radius5 bg-white"
-                                                    type="email"
-                                                    name="email"
-                                                    id="Email"
-                                                    required
-                                                    placeholder="Submit your email"
-                                                />
-                                                <span className="d-block position-absolute theme-color cursor-pointer">
-                                                    <i className="fal fa-envelope" />
-                                                </span>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             {/* /col */}
                             <div className="col-xl-3 offset-xl-2 col-lg-3  col-md-4 col-sm-4 col-12  d-sm-none d-lg-block">
                                 <div className="footer-widget pb-40">
