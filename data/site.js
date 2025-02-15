@@ -100,22 +100,69 @@ export const certificationsInfo = [
     },
     {
         logoUrl: "/images/award/award-logo2.png",
-        title: "Developer of the Year",
-        year: 2021,
-        association: "Dev Internatioal",
-        location: "London, England",
+        title: "Professional Machine Learning Engineer",
+        year: 2024,
+        association: "Google",
         description:
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore.",
+            "Big Query · Inteligencia artificial · Google Kubernetes Engine (GKE) · Aprendizaje automático · Ciencia de datos · Google Cloud · Vertex AI · Kubernetes · Python · Bases de datos · Aprendizaje profundo · MLOps",
     },
     {
         logoUrl: "/images/award/award-logo3.png",
-        title: "Fastest Coder",
-        year: 2019,
-        association: "Amazing Programmer",
-        location: "Dhaka, Bangladesh",
+        title: "Google Cloud Architect",
+        year: 2024,
+        association: "Google",
         description:
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore.",
+            "Big Query · CI/CD · Bash · Git · Microservices · Docker · Google Kubernetes Engine (GKE) · Google Cloud · GitHub · Kubernetes · Bases de datos · Terraform · Infraestructura como código (IaC)",
     },
+    {
+        logoUrl: "/images/award/award-logo3.png",
+        title: "Google Cloud Professional Data Engineer",
+        year: 2023,
+        association: "Google",
+        description:
+            "Big Query · Microservicios · Google Cloud · PySpark · Bases de datos · Infraestructura como código (IaC)",
+    },
+    {
+        logoUrl: "/images/award/award-logo3.png",
+        title: "Azure AI Fundamentals",
+        year: 2022,
+        association: "Microsoft",
+        description:
+            "",
+    },
+    {
+        logoUrl: "/images/award/award-logo3.png",
+        title: "Microsoft Certified Azure Data Fundamentals",
+        year: 2022,
+        association: "Microsoft",
+        description:
+            "Microservices ·  Azure SQL  · Datafactory ",
+    },
+    {
+        logoUrl: "/images/award/award-logo3.png",
+        title: "Microsoft Azure Fundamentals",
+        year: 2022,
+        association: "Microsoft",
+        description:
+            "Microservices ·  Azure SQL  · Datafactory ",
+    },
+    {
+        logoUrl: "/images/award/award-logo3.png",
+        title: "AWS Cloud Practitioner Essentials",
+        year: 2022,
+        association: "Amazon",
+        description:
+            "Microservices ",
+    },
+    {
+        logoUrl: "/images/award/award-logo3.png",
+        title: "GitLab Certified Associate",
+        year: 2021,
+        association: "Gitlab",
+        description:
+            "CI/CD",
+    }
+    
 ];
 
 export const experience2 = [
@@ -157,37 +204,26 @@ export const experience2 = [
 export const education = [
     {
         icon: "flaticon-graduation-cap",
-        title: "Masters in Computer Science",
-        location: "New York University",
+        title: "Masters in Big Data Science",
+        location: "University of Navarra | Spain",
+        date: {
+            start: 2021,
+            end: 2022,
+        },
+        description:
+            "Specialized in data processing, machine learning, and advanced analytics. Gained expertise in big data technologies, cloud computing, and predictive modeling, strengthening my ability to design scalable data-driven solutions for business intelligence and data engineering projects."
+    },
+    {
+        icon: "flaticon-graduation-cap",
+        title: "Bachelor in Software Engineering",
+        location: "National Technological University | Argentina",
         date: {
             start: 2012,
-            end: 2016,
+            end: 2019,
         },
         description:
-            "Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae vitae.",
-    },
-    {
-        icon: "flaticon-graduation-cap",
-        title: "Bachelor in Computer Engineering",
-        location: "Dhaka University",
-        date: {
-            start: 2008,
-            end: 2011,
-        },
-        description:
-            "Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae vitae.",
-    },
-    {
-        icon: "flaticon-graduation-cap",
-        title: "Diploma in Graphic Design",
-        location: "ChattoGram College",
-        date: {
-            start: 2006,
-            end: 2008,
-        },
-        description:
-            "Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae vitae.",
-    },
+            "Developed a strong foundation in software development, algorithms, databases, and system architecture. Gained experience in designing, implementing, and optimizing software solutions, preparing me for a career in data engineering and full-stack development",
+    }
 ];
 
 export const skills = [
@@ -217,30 +253,31 @@ export const skills = [
     },
 ];
 
-export const service = [
+export const courses = [
     {
         iconUrl: "/images/icon/ser-icon1.png",
-        title: "Web Development",
+        title: "Power BI - Business Intelligence for Beginners to Advance",
         description:
-            "Ludantium totam rem aperia meaququae ab tatis et quasi architecto beatae vit dunt ut labore et dolore magna aliqua.",
+            "Some projects require me to create dashboards to present data to stakeholders, so I took this course. I learned to build interactive reports, improving decision-making and enhancing data visualization in my data engineering work",
     },
     {
         iconUrl: "/images/icon/ser-icon2.png",
-        title: "Software Development",
+        title: "Machine Learning & Data Science A-Z: Hands-on Python",
         description:
-            "Ludantium totam rem aperia meaququae ab tatis et quasi architecto beatae vit dunt ut labore et dolore magna aliqua.",
+            "This course prepared me for studying my master’s in Data Science. It provided hands-on experience in ML algorithms, data preprocessing, and model deployment, strengthening my ability to work with large datasets and predictive analytics.",
     },
+    
     {
         iconUrl: "/images/icon/ser-icon3.png",
-        title: "System Development",
+        title: "React y Redux",
         description:
-            "Ludantium totam rem aperia meaququae ab tatis et quasi architecto beatae vit dunt ut labore et dolore magna aliqua.",
+            "Enhanced my frontend development skills by building dynamic and scalable web applications using React and Redux. Gained a deep understanding of state management, component-based architecture, and efficient data flow, which improved my ability to develop robust and maintainable full-stack solutions.",
     },
     {
         iconUrl: "/images/icon/ser-icon4.png",
-        title: "Security Analysis",
+        title: "ionic 2 and ionic 3: Android & iOS",
         description:
-            "Ludantium totam rem aperia meaququae ab tatis et quasi architecto beatae vit dunt ut labore et dolore magna aliqua.",
+            "Some clients required mobile applications to enrich their business, so I took this course. It helped me develop cross-platform mobile apps, integrating backend services and enhancing my ability to deliver complete software solutions.",
     },
 ];
 

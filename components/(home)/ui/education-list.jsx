@@ -13,9 +13,9 @@ export default function EducationList({ data }) {
             <div className="experience-service-text d-inline-block">
                 <h3 className="mb-2">{data.title}</h3>
                 <h4>
-                    New York University{" "}
+                    {data.location}
                     <span className="meta-text-color openS-font-family">
-                        ( {start} - {end} )
+                        &nbsp;( {start} - {end} )
                     </span>
                 </h4>
                 <p className="mb-0 mt-15">{data.description}</p>

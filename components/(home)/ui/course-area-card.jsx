@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function ServiceAreaCard({ data, index }) {
+export default function CourseAreaCard({ data, index }) {
     const first2 = index === 0 || index === 1;
     return (
         <div

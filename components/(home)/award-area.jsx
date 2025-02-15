@@ -11,13 +11,13 @@ export default function AwardArea() {
                             <span className="theme-color text-uppercase d-block mb-6">
                                 Success Stories
                             </span>
-                            <h2>Licenses &amp; certifications</h2>
+                            <h2>Certifications</h2>
                         </div>
                     </div>
                 </div>
                 <div className="award-wrapper mt-70">
                     {/* certifications info line start */}
-                    {certificationsInfo?.slice(0, 3).map((item, i) => (
+                    {certificationsInfo?.map((item, i) => (
                         <AwardAreaLine
                             key={i}
                             data={item}

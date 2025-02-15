@@ -1,12 +1,12 @@
 import Image from "next/image";
-import ServiceAreaCard from "./ui/service-area-card";
-import { service } from "@/data/site";
+import CourseAreaCard from "./ui/course-area-card";
+import { courses } from "@/data/site";
 
-export default function ServiceArea() {
+export default function CourseArea() {
     return (
         <div
             id="service"
-            className="service-area primary-bg over-hidden pt-160 pb-145"
+            className="course-area primary-bg over-hidden pt-160 pb-145"
         >
             <div className="service-wrapper position-relative">
                 <div className="container">
@@ -14,18 +14,18 @@ export default function ServiceArea() {
                         <div className="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
                             <div className="title text-center">
                                 <span className="theme-color text-uppercase d-block mb-6">
-                                    Service
+                                    Online
                                 </span>
-                                <h2 className="text-white">What I offer</h2>
+                                <h2 className="text-white">Courses</h2>
                             </div>
                         </div>
                     </div>
                     <div className="row service-wrappers mt-80">
-                        {/* service card start */}
-                        {service?.slice(0, 4).map((item, i) => (
-                            <ServiceAreaCard key={i} data={item} index={i} />
+                        {/* course card start */}
+                        {courses?.slice(0, 4).map((item, i) => (
+                            <CourseAreaCard key={i} data={item} index={i} />
                         ))}
-                        {/* service card end */}
+                        {/* course card end */}
                     </div>
                 </div>
                 <div className="about-icon position-absolute d-none d-md-inline-block z-index1 zoom-animation">

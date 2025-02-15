@@ -99,7 +99,7 @@ export default function About() {
                 </div>
                 <div className="about-text-style position-absolute d-none d-md-inline-block">
                     <span className="d-inline-block section-text-color">
-                        Smith
+                        Lucas
                     </span>
                 </div>
                 <div className="about-icon position-absolute d-none d-md-inline-block z-index1 zoom-animation">
