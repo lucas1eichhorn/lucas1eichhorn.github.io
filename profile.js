@@ -134,7 +134,7 @@ export const experiences = [
     {
         company: "DoctorPlus SAS",
         from: "May 2020",
-        role: "CTO & Fullstack Developer",
+        role: "Tech Lead",
         description: `DoctorPlus is French startup that provides an e-health solution with well-being programs. Through video consultations it offers doctors and patients a platform to achieve remote medical consultations.
         This project started a few years ago, while I was working at the Xinergia consulting firm developing the application for Argentina, and some years later I got involved again to develop the product in France and even in Morocco in a future. 
         I have a huge variety of tasks here. In my role as a lead full stack developer, I work from analysis with the product owner to software implementations and even AWS Cloud management. 

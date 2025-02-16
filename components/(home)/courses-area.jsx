@@ -5,7 +5,7 @@ import { courses } from "@/data/site";
 export default function CourseArea() {
     return (
         <div
-            id="service"
+            id="courses"
             className="course-area primary-bg over-hidden pt-160 pb-145"
         >
             <div className="service-wrapper position-relative">

@@ -25,13 +25,11 @@ export default function Experience() {
                                 <div className="position-relative">
                                     <div className="title">
                                         <span className="theme-color text-uppercase d-block mb-6 mt--5">
-                                            Work Experience
+                                            From code to data
                                         </span>
-                                        <h2 className="mb-25">My Experience</h2>
+                                        <h2 className="mb-25">Work Experience</h2>
                                         <p>
-                                            Sed ut perspiciatis unde omnis iste
-                                            natus kobita tumi sopno charini hoye
-                                            khbor nio na sit voluptatem.
+                                         Started as a software engineer, fell in love with data, and never looked back! Now, I design scalable data solutions, turning raw information into powerful insights.
                                         </p>
                                     </div>
                                 </div>
@@ -39,8 +37,7 @@ export default function Experience() {
                                     <ul className="experience-content">
                                         {/* experience list start */}
                                         {experience2
-                                            ?.slice(0, 3)
-                                            .map((item, i) => (
+                                            ?.map((item, i) => (
                                                 <ExperienceList
                                                     key={i}
                                                     data={item}

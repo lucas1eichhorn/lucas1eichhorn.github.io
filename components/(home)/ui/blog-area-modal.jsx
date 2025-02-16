@@ -20,7 +20,7 @@ const tags = [
 
 const social = [
     {
-        icon: "fab fa-facebook-f",
+        icon: "fab fa-github",
         color: "facebook-color",
         path: "/",
     },

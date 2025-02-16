@@ -4,25 +4,15 @@ import { Link } from "react-scroll";
 
 const social = [
     {
-        icon: "fab fa-facebook-f",
-        color: "facebook-bg",
-        link: "/",
-    },
-    {
-        icon: "fab fa-twitter",
-        color: "twitter-bg",
-        link: "/",
+        icon: "fab fa-github",
+        color: "dark-bg",
+        link: "https://github.com/lucas1eichhorn",
     },
     {
         icon: "fab fa-linkedin-in",
         color: "linkedin-bg",
-        link: "/",
-    },
-    {
-        icon: "fab fa-instagram",
-        color: "instagram-bg",
-        link: "/",
-    },
+        link: "https://www.linkedin.com/in/lucas-eichhorn",
+    }
 ];
 
 export default function Footer() {
@@ -38,19 +28,13 @@ export default function Footer() {
                                         <Image
                                             height={36}
                                             width={160}
-                                            src="/images/logo/logo-dark.png"
-                                            alt="Themes"
+                                            src="/images/logo/logo.png"
+                                            alt="Lucas"
                                         />
                                     </div>
                                     <div className="copyright-text">
                                         <p className="mb-0">
                                             All rights reserved{" "}
-                                            <Link
-                                                href="hhttps://themeforest.net/user/qubohub/portfolio"
-                                                className="c-theme primary-color f-600"
-                                            >
-                                                QuboHub
-                                            </Link>{" "}
                                             © {new Date().getFullYear()}
                                         </p>
                                     </div>

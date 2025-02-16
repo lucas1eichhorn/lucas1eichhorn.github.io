@@ -27,30 +27,67 @@ export const introFeature = [
 
 export const portfolioArea = [
     {
-        title: "Web Design",
-        description: "Software Design for QuboHub",
-        imgUrl: "/images/portfolio/port-img1.jpg",
-        imgLargeUrl: "/images/portfolio/port-img1-large.jpg",
+        title: "e-Health",
+        description: "DoctorPlus",
+        fullText: `This project is part of a French startup that provides an e-health solution with well-being programs. It offers doctors and patients a platform to achieve remote medical consultations using the power of videocalls over the WebRTC technologies.
+        
+        WebRTC (Web real-time communications) is a open source technology that allows websites to capture audio and video, as well as exchange arbitrary data between browsers without the need for an intermediary.
+        
+        This app is fully integrated with third party services such as Stripe for payments, SendGrid for mailing, and even AWS SNS (Simple Notification Services) to notify events between users.
+        `,
+        imgUrl: "/images/portfolio/doctorplus.jpg",
+        imgLargeUrl: "/images/portfolio/doctorplus.jpg"
     },
     {
-        title: "Development",
-        description: "Website Development for ABC Corporation",
-        imgUrl: "/images/portfolio/port-img2.jpg",
-        imgLargeUrl: "/images/portfolio/port-img2-large.jpg",
+        title: "e-Commerce",
+        description: "Serendipia Deco",
+        fullText: `This project is an ecommerce for a home decoration store where customers can access an online store to browse through, and place orders for products or services via their own devices.
+        
+        The Covid-19 pandemic has increased the need for eCommerce with new consumer habits and has led this business to implement online commerce.
+        
+        Is a solution implemented with the fully customizable and open source Woocommerce platform built for WordPress. 
+        `,
+        imgUrl: "/images/portfolio/serendipia.jpg",
+        imgLargeUrl: "/images/portfolio/serendipia.jpg"
     },
     {
-        title: "Branding",
-        description: "Branding for Easy Computers",
-        imgUrl: "/images/portfolio/port-img3.jpg",
-        imgLargeUrl: "/images/portfolio/port-img3-large.jpg",
+        title: "Website",
+        description: "Wedding photographer",
+        fullText: `This was a project developed for an enthusiastic wedding photographer who wants to share the incredible moments captured with his camera on his own website.
+        
+        This website has a set of tools and functions that allow the best management option for a professional photographer.
+        
+        Developed with Laravel, one of the most popular MVC frameworks within the PHP ecosystem. Laravel is a flexible framework that allows to develop much faster and without so many demands of good practices at the beginning.
+        `,
+        imgUrl: "/images/portfolio/wedding-site.jpg",
+        imgLargeUrl: "/images/portfolio/wedding-site.jpg"
+
     },
     {
-        title: "Photography",
-        description: "Security Analysis for QuboHub",
-        imgUrl: "/images/portfolio/port-img4.jpg",
-        imgLargeUrl: "/images/portfolio/port-img4-large.jpg",
-    },
-];
+        title: "IoT Smart lock",
+        description: "KeyWi",
+        fullText: `KeyWi is an IoT solution that consists of an intelligent lock with a system embedded in a Raspeberry Pi powered by mobile devices with NFC service.  This was my final degree project at the university.
+
+        The project seeks to provide convenience to the user, with the capacity for connectivity and data processing in IoT devices and to improve security aspects in electronic locks.
+        
+        The project has a mobile application that works as a key transmitting by NFC a unique code that is interpreted by an intelligent lock (Raspberry Pi inside) that allows / denies the opening of a door
+        `,
+        imgUrl: "/images/portfolio/keywi2.jpg",
+        imgLargeUrl: "/images/portfolio/keywi2.jpg"
+    }, {
+        title: "Mobile App",
+        description: "Taxi tracket",
+        fullText: `It is probably not one of the bigges projects that I have done, but it represents all the small apps developed while learning mobile application development with Ionic.
+        
+        This app was part of an Udemy course. It consists on a tracking system for taxi company using mobile phones using GPS positioning and real time events on Google Firebase.
+        `,
+        imgUrl: "/images/portfolio/taxi-app.jpg",
+        imgLargeUrl: "/images/portfolio/taxi-app.jpg",
+
+    }
+
+]
+
 
 export const experience = [
     {
@@ -96,7 +133,8 @@ export const certificationsInfo = [
         title: "Professional Cloud DevOps Engineer",
         year: 2024,
         association: "Google",
-        description: "Jenkins · Integración continua y entrega continua (CI/CD) · Bash · Git · Microservicios · Docker · Google Kubernetes Engine (GKE) · GitHub · Kubernetes · Terraform · Infraestructura como código (IaC)",
+        description: 
+            "Continuous Integration and Continuous Deployment (CI/CD) · Jenkins · Bash scripting · Git · Microservices · Docker · Kubernetes · Google Kubernetes Engine (GKE) · Terraform · Infrastructure as Code (IaC) · Monitoring and Logging · Site Reliability Engineering (SRE) · Security and Compliance in DevOps",
     },
     {
         logoUrl: "/images/award/award-logo2.png",
@@ -104,7 +142,7 @@ export const certificationsInfo = [
         year: 2024,
         association: "Google",
         description:
-            "Big Query · Inteligencia artificial · Google Kubernetes Engine (GKE) · Aprendizaje automático · Ciencia de datos · Google Cloud · Vertex AI · Kubernetes · Python · Bases de datos · Aprendizaje profundo · MLOps",
+            "Machine Learning · Deep Learning · MLOps · Google Cloud · Vertex AI · Google Kubernetes Engine (GKE) · BigQuery · Data Science · Model Deployment and Monitoring · Python · TensorFlow · Feature Engineering · AI Ethics and Fairness",
     },
     {
         logoUrl: "/images/award/award-logo3.png",
@@ -112,7 +150,7 @@ export const certificationsInfo = [
         year: 2024,
         association: "Google",
         description:
-            "Big Query · CI/CD · Bash · Git · Microservices · Docker · Google Kubernetes Engine (GKE) · Google Cloud · GitHub · Kubernetes · Bases de datos · Terraform · Infraestructura como código (IaC)",
+            "Cloud Solution Architecture · Google Cloud Platform (GCP) · Compute Engine · Kubernetes · Google Kubernetes Engine (GKE) · CI/CD · Infrastructure Automation · Networking · Security and Compliance · Terraform · BigQuery · Cloud Storage · Hybrid and Multi-cloud Architectures",
     },
     {
         logoUrl: "/images/award/award-logo3.png",
@@ -120,7 +158,7 @@ export const certificationsInfo = [
         year: 2023,
         association: "Google",
         description:
-            "Big Query · Microservicios · Google Cloud · PySpark · Bases de datos · Infraestructura como código (IaC)",
+            "Big Data Processing · Google Cloud · BigQuery · Dataflow · Dataproc · Apache Spark · PySpark · Data Modeling · Data Pipelines · SQL · ETL/ELT · Machine Learning Integration · Infrastructure as Code (IaC)",
     },
     {
         logoUrl: "/images/award/award-logo3.png",
@@ -128,7 +166,7 @@ export const certificationsInfo = [
         year: 2022,
         association: "Microsoft",
         description:
-            "",
+            "Fundamentals of Artificial Intelligence · Machine Learning Basics · Azure Machine Learning · Cognitive Services · Responsible AI · Computer Vision · Natural Language Processing (NLP) · Conversational AI",
     },
     {
         logoUrl: "/images/award/award-logo3.png",
@@ -136,7 +174,7 @@ export const certificationsInfo = [
         year: 2022,
         association: "Microsoft",
         description:
-            "Microservices ·  Azure SQL  · Datafactory ",
+            "Azure Data Services · Azure SQL Database · Data Warehousing · Data Factory · Data Lake Storage · Data Security and Compliance · NoSQL and Relational Databases · Fundamentals of Big Data and Analytics",
     },
     {
         logoUrl: "/images/award/award-logo3.png",
@@ -144,7 +182,7 @@ export const certificationsInfo = [
         year: 2022,
         association: "Microsoft",
         description:
-            "Microservices ·  Azure SQL  · Datafactory ",
+            "Cloud Computing Basics · Azure Core Services · Virtual Machines · Storage Solutions · Networking · Identity and Access Management (IAM) · Security and Compliance in Azure · Cost Management",
     },
     {
         logoUrl: "/images/award/award-logo3.png",
@@ -152,55 +190,108 @@ export const certificationsInfo = [
         year: 2022,
         association: "Amazon",
         description:
-            "Microservices ",
+            "AWS Cloud Fundamentals · Compute, Storage, and Networking Basics · Identity and Access Management (IAM) · Security Best Practices · Cost Optimization · AWS Services Overview (EC2, S3, RDS, Lambda) · Cloud Adoption Framework",
     },
     {
         logoUrl: "/images/award/award-logo3.png",
         title: "GitLab Certified Associate",
         year: 2021,
-        association: "Gitlab",
+        association: "GitLab",
         description:
-            "CI/CD",
+            "GitLab CI/CD · Version Control · Pipeline Automation · DevOps Fundamentals · Collaboration and Code Review · Security and Compliance in GitLab · Agile Development Workflows",
     }
-    
 ];
+
 
 export const experience2 = [
     {
         icon: "flaticon-briefcase",
-        title: "Senior System Engineer",
-        company: "QuboHub",
+        company: "Stage Entertainment",
         date: {
-            start: 2018,
+            start: 2024,
             end: "Running",
         },
-        description:
-            "Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae et vitae ullam molesti quae quasi.",
+        title: "Data Engineer",
+        description: 'Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae et vitae ullam molesti quae quasi.',
+        skills: "PHP, SQL, HTML, CSS, Javascript, jQuery, AWS Cloud Admin, API REST, Git"
     },
     {
         icon: "flaticon-briefcase",
-        title: "Data Architect",
-        company: "Easy Computers",
+        company: "Hiberus @ Havas Media Group",
         date: {
-            start: 2015,
-            end: 2018,
+            start: 2023,
+            end: 2024,
         },
-        description:
-            "Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae et vitae ullam molesti quae quasi.",
+        title: "Data Engineer",
+        description: "",
+        skills: "PHP, SQL, HTML, CSS, Javascript, jQuery, AWS Cloud Admin, API REST, Git"
     },
     {
         icon: "flaticon-briefcase",
-        title: "Bangla College",
-        company: "Easy Computers",
+        company: "Hiberus @ MITMA",
         date: {
             start: 2021,
-            end: 2015,
+            end: 2023,
         },
-        description:
-            "Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae et vitae ullam molesti quae quasi.",
+        title: "Data Engineer",
+        description: "",
+        skills: "PHP, SQL, HTML, CSS, Javascript, jQuery, AWS Cloud Admin, API REST, Git"
     },
-];
+    {
+        icon: "flaticon-briefcase",
+        company: "DoctorPlus SAS",
+        date: {
+            start: 2020,
+            end: 2021,
+        },
+        title: "Tech Lead",
+        description: `DoctorPlus is French startup that provides an e-health solution with well-being programs. Through video consultations it offers doctors and patients a platform to achieve remote medical consultations.
+        This project started a few years ago, while I was working at the Xinergia consulting firm developing the application for Argentina, and some years later I got involved again to develop the product in France and even in Morocco in a future. 
+        I have a huge variety of tasks here. In my role as a lead full stack developer, I work from analysis with the product owner to software implementations and even AWS Cloud management. 
+        `,
+        skills: "PHP, SQL, HTML, CSS, Javascript, jQuery, AWS Cloud Admin, API REST, Git"
+    },
+    {
+        icon: "flaticon-briefcase",
+        company: "MercadoLibre",
 
+        date: {
+            start: 2020,
+            end: 2020,
+        },
+        title: "Front end developer",
+        description: `MercadoLibre is the #1 marketplace in Latin America and one of the top 10 most visited e-commerce websites.
+        I was part of the team that develops tools for sellers, more specifically the offers section that allows user set promotions in their products.
+        Here I assumed the position of front/middle end developer. I used to work with JavaScript technologies such as React (server side rendering framework) or Node JS (express based framework), and additionally adopting agile methodologies like Scrum with my team.`,
+        skills: "React, Node JS, Git, GraphQL, API REST, JEST, Enzyme, WebDriver IO"
+    },
+    {
+        icon: "flaticon-briefcase",
+        company: "NEORIS",
+        date: {
+            start: 2019,
+            end: 2020,
+        },
+        title: "Fullstack Developer",
+        description: `I worked in the Argentinian subsidiary of this international software factory, specifically in the area of financial services for the private banking section. 
+        Firstly my role was as fullstack developer, and then I was trained as a Scrum Master (National Technological University), to coordinate the work team that carried out projects with Angular and Java technologies.`,
+        skills: "Angular+React, HTML, CSS, Scrum Master, Git, API REST, Cucumber, Selenium, Robot Framework"
+    },
+    {
+        icon: "flaticon-briefcase",
+        company: "Xinergia",
+        date: {
+            start: "Nov 2015",
+            end: "Jun 2019",
+        },
+        title: "Fullstack Developer",
+        description: `At the beginning of my professional career while I was at university, I started working in this company and forming my profile as a fullstack web developer.
+        Along many years I was in charge of analyze, design and implement a plenty of web systems, mobile applications, creation of e-commerce and advertising websites for different clients. 
+        These tasks allowed customers to improve their internal processes, management and brand positioning.`,
+        skills: "PHP, HTML, CSS, Javascript, jQuery, ionic 3,SQL (MySQL/Oracle/Postgre), Database Admin, API REST, SVN"
+    },
+
+]
 export const education = [
     {
         icon: "flaticon-graduation-cap",
@@ -223,7 +314,16 @@ export const education = [
         },
         description:
             "Developed a strong foundation in software development, algorithms, databases, and system architecture. Gained experience in designing, implementing, and optimizing software solutions, preparing me for a career in data engineering and full-stack development",
-    }
+    },
+    {
+        icon: "flaticon-graduation-cap",
+        title: 'Scrum Grand Master - Project management',
+        location: 'e-Learning center at UTN FRBA',
+        date: {
+            start: 2019,
+            end: 2019,
+        },
+    },
 ];
 
 export const skills = [
@@ -281,89 +381,6 @@ export const courses = [
     },
 ];
 
-export const pricing = [
-    {
-        time: "Hourly",
-        price: 99,
-        priceTime: "Hour",
-        list: [
-            {
-                name: "One time contract",
-                isCheck: true,
-            },
-            {
-                name: "Flexible Contract",
-                isCheck: true,
-            },
-            {
-                name: "Source Files",
-                isCheck: true,
-            },
-            {
-                name: "Support",
-                isCheck: false,
-            },
-            {
-                name: "Updates",
-                isCheck: false,
-            },
-        ],
-    },
-    {
-        time: "Project Basis",
-        price: 69,
-        priceTime: "Hour",
-        list: [
-            {
-                name: "One time contract",
-                isCheck: true,
-            },
-            {
-                name: "Flexible Contract",
-                isCheck: true,
-            },
-            {
-                name: "Source Files",
-                isCheck: true,
-            },
-            {
-                name: "Support",
-                isCheck: true,
-            },
-            {
-                name: "Updates",
-                isCheck: false,
-            },
-        ],
-    },
-    {
-        time: "Monthly",
-        price: 39,
-        priceTime: "Hour",
-        list: [
-            {
-                name: "One time contract",
-                isCheck: true,
-            },
-            {
-                name: "Flexible Contract",
-                isCheck: true,
-            },
-            {
-                name: "Source Files",
-                isCheck: true,
-            },
-            {
-                name: "Support",
-                isCheck: true,
-            },
-            {
-                name: "Updates",
-                isCheck: true,
-            },
-        ],
-    },
-];
 
 export const testimonial = [
     {

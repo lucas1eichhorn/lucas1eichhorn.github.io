@@ -3,7 +3,7 @@ import AwardAreaLine from "./ui/award-area-line";
 
 export default function AwardArea() {
     return (
-        <div className="award-area over-hidden position-relative z-index11 pt-160 pb-170">
+        <div id="certifications" className="award-area over-hidden position-relative z-index11 pt-160 pb-170">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">

@@ -4,20 +4,18 @@ import { education } from "@/data/site";
 
 export default function Education() {
     return (
-        <div className="education-area over-hidden">
+        <div id="education" className="education-area over-hidden">
             <div className="container">
                 <div className="row position-relative">
                     <div className="col-xl-6 col-lg-6  col-md-12 col-sm-12 col-12">
                         <div className="position-relative">
                             <div className="title">
                                 <span className="theme-color text-uppercase d-block mb-1">
-                                    Education
+                                    Academic
                                 </span>
-                                <h2 className="mb-25">My Education</h2>
+                                <h2 className="mb-25">Education</h2>
                                 <p>
-                                    Sed ut perspiciatis unde omnis iste natus
-                                    kobita tumi sopno charini hoye khbor nio na
-                                    sit voluptatem accusantium dolore.
+                                My academic background combines a strong foundation in software engineering with advanced specialization in big data.
                                 </p>
                             </div>
                         </div>

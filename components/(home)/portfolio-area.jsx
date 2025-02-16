@@ -5,7 +5,7 @@ import PortfolioLineModal from "./ui/portfolio-line-modal";
 
 export default function PortfolioArea() {
     return (
-        <div id="works" className="portfolio-area over-hidden pb-165">
+        <div id="portfolio" className="portfolio-area over-hidden pb-165">
             {/* marquee start */}
             <PortfolioMarquee />
             {/* marquee end */}
