@@ -1,7 +1,6 @@
 import { portfolioArea } from "@/data/site";
 import PortfolioLine from "./ui/portfolio-line";
 import PortfolioMarquee from "./ui/portfolio-marquee";
-import PortfolioLineModal from "./ui/portfolio-line-modal";
 
 export default function PortfolioArea() {
     return (
@@ -30,8 +29,7 @@ export default function PortfolioArea() {
                         ))}
                         {/* portfolio line end */}
                     </div>
-                    {/* portfolio line modal start */}
-                    <PortfolioLineModal />
+                
                     {/* portfolio line modal end */}
                 </div>
             </div>
