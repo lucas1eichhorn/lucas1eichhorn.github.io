@@ -1,4 +1,4 @@
-import { Link } from "react-scroll";
+import Link from "next/link";
 
 const socialLink = [
     {
@@ -22,6 +22,7 @@ export default function HeroSociable() {
                         <Link
                             className="text-white text-center d-inline-block rotate"
                             href={item.link}
+                            target="_blank"
                            
                         >
                             <i className={item.icon} />

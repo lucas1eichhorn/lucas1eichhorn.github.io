@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Link } from "react-scroll";
+import Link from "next/link";
 
 const social = [
     {
@@ -18,26 +18,25 @@ const social = [
 export default function Footer() {
     return (
         <footer>
-            <div className="footer-area over-hidden pt-110 mb-80">
+            <div className="footer-area over-hidden mb-1">
                 <div className="footer-top">
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-4  col-lg-5  col-md-8  col-sm-7 col-12">
-                                <div className="footer-widget footer-logo pb-40">
+                                <div className="footer-widget footer-logo pt-40">
                                     <div className="foot-logo mb-30">
                                         <Image
-                                            height={36}
-                                            width={160}
+                                            height={40}
+                                            width={40}
                                             src="/images/logo/logo.png"
                                             alt="Lucas"
                                         />
-                                    </div>
-                                    <div className="copyright-text">
-                                        <p className="mb-0">
+                                        <span className="ml-3 text-inline">
                                             All rights reserved{" "}
                                             © {new Date().getFullYear()}
-                                        </p>
+                                        </span>
                                     </div>
+                                    
                                 </div>
                             </div>
                             <div className="col-xl-3 offset-xl-2 col-lg-3  col-md-4 col-sm-4 col-12 d-none d-sm-block d-lg-none">
@@ -53,6 +52,8 @@ export default function Footer() {
                                                 <Link
                                                     className={`${item.color} text-center pr-0 text-white d-block transition-3 rotate`}
                                                     href={item.link}
+                                                    target="_blank"
+                                                     rel="noopener noreferrer"
                                                 >
                                                     <i className={item.icon} />
                                                 </Link>
@@ -77,6 +78,7 @@ export default function Footer() {
                                                 <Link
                                                     className={`${item.color} text-center pr-0 text-white d-block transition-3 rotate`}
                                                     href={item.link}
+                                                    target="_blank"
                                                 >
                                                     <i className={item.icon} />
                                                 </Link>

@@ -446,7 +446,7 @@ a:hover,
     width: 100%;
     left: 0;
 }
-.header-btn a {
+.header-btn a,.cert-btn button  {
     padding: 12px 28px 11px 28px;
     border: 1px solid var(--main-color);
     border-radius: 5px;
@@ -455,8 +455,10 @@ a:hover,
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     font-size: 15px;
+    background: transparent;
 }
 .header-btn a:hover,
+.cert-btn button:hover,
 .sticky-menu .header-btn a:hover {
     background: var(--main-color);
     color: #ffffff;
@@ -744,6 +746,10 @@ span#main {
     height: 95px;
     line-height: 95px;
     border-radius: 50%;
+}
+
+.portfolio-details p {
+    white-space: pre-line;
 }
 .port-content:hover {
     background: var(--main-color);

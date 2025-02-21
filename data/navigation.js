@@ -26,6 +26,6 @@ export default [
     },
     {
         name: "Portfolio",
-        path: "Portfolio",
+        path: "portfolio",
     },
 ];

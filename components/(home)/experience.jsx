@@ -4,7 +4,7 @@ import ExperienceList from "./ui/experience-list";
 export default function Experience() {
     return (
         <div className="experience-area over-hidden pb-165">
-            <div className="experience-wrapper extra-width position-relative">
+            <div id="work" className="experience-wrapper extra-width position-relative">
                 <div
                     className="experience-bg-img left-0 top-0 bottom-0 bg-cover no-repeat w-50 position-absolute"
                     style={{

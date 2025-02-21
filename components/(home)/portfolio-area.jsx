@@ -22,8 +22,8 @@ export default function PortfolioArea() {
                     </div>
                     <div className="row portfolio mt-80">
                         {/* portfolio line start */}
-                        {portfolioArea?.slice(0, 4).map((item, i) => (
-                            <div key={i} className="col-12">
+                        {portfolioArea?.map((item, i) => (
+                            <div key={i} className="col-12 ">
                                 <PortfolioLine data={item} />
                             </div>
                         ))}

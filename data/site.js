@@ -29,36 +29,27 @@ export const portfolioArea = [
     {
         title: "e-Health",
         description: "DoctorPlus",
-        fullText: `This project is part of a French startup that provides an e-health solution with well-being programs. It offers doctors and patients a platform to achieve remote medical consultations using the power of videocalls over the WebRTC technologies.
-        
-        WebRTC (Web real-time communications) is a open source technology that allows websites to capture audio and video, as well as exchange arbitrary data between browsers without the need for an intermediary.
-        
-        This app is fully integrated with third party services such as Stripe for payments, SendGrid for mailing, and even AWS SNS (Simple Notification Services) to notify events between users.
-        `,
+        fullText: "This project is part of a French startup that provides an innovative e-health solution with well-being programs. It offers a seamless platform for doctors and patients to conduct remote medical consultations through high-quality video calls powered by WebRTC technology. \n WebRTC (Web Real-Time Communications) is an open-source technology that enables websites to capture audio and video while facilitating direct peer-to-peer data exchange between browsers without requiring an intermediary. \n \n The application is fully integrated with various third-party services, including Stripe for secure payments, SendGrid for efficient email communication, and AWS SNS (Simple Notification Service) to enable real-time event notifications between users.This app is fully integrated with third party services such as Stripe for payments, SendGrid for mailing, and even AWS SNS (Simple Notification Services) to notify events between users.",
         imgUrl: "/images/portfolio/doctorplus.jpg",
         imgLargeUrl: "/images/portfolio/doctorplus.jpg"
     },
     {
         title: "e-Commerce",
         description: "Serendipia Deco",
-        fullText: `This project is an ecommerce for a home decoration store where customers can access an online store to browse through, and place orders for products or services via their own devices.
-        
-        The Covid-19 pandemic has increased the need for eCommerce with new consumer habits and has led this business to implement online commerce.
-        
-        Is a solution implemented with the fully customizable and open source Woocommerce platform built for WordPress. 
-        `,
+        fullText: `This project is an eCommerce platform for a home decoration store, enabling customers to seamlessly browse products and place orders from their own devices.
+            
+        The Covid-19 pandemic accelerated the shift toward digital shopping, prompting this business to embrace online commerce to adapt to evolving consumer habits.
+
+        The solution was implemented using WooCommerce, a fully customizable and open-source platform built for WordPress, ensuring flexibility and scalability for the store’s needs. `,
         imgUrl: "/images/portfolio/serendipia.jpg",
         imgLargeUrl: "/images/portfolio/serendipia.jpg"
     },
     {
         title: "Website",
         description: "Wedding photographer",
-        fullText: `This was a project developed for an enthusiastic wedding photographer who wants to share the incredible moments captured with his camera on his own website.
-        
-        This website has a set of tools and functions that allow the best management option for a professional photographer.
-        
-        Developed with Laravel, one of the most popular MVC frameworks within the PHP ecosystem. Laravel is a flexible framework that allows to develop much faster and without so many demands of good practices at the beginning.
-        `,
+        fullText: `This project was developed for a passionate wedding photographer who wanted a personalized website to showcase the incredible moments captured through his lens.
+
+                The website includes a suite of tools and features designed to provide professional photographers with an efficient and seamless way to manage and display their work.`,
         imgUrl: "/images/portfolio/wedding-site.jpg",
         imgLargeUrl: "/images/portfolio/wedding-site.jpg"
 
@@ -66,21 +57,18 @@ export const portfolioArea = [
     {
         title: "IoT Smart lock",
         description: "KeyWi",
-        fullText: `KeyWi is an IoT solution that consists of an intelligent lock with a system embedded in a Raspeberry Pi powered by mobile devices with NFC service.  This was my final degree project at the university.
-
-        The project seeks to provide convenience to the user, with the capacity for connectivity and data processing in IoT devices and to improve security aspects in electronic locks.
+        fullText: `KeyWi is an IoT solution featuring a smart lock with an embedded system powered by a Raspberry Pi, enabling seamless access control via NFC-enabled mobile devices.
         
-        The project has a mobile application that works as a key transmitting by NFC a unique code that is interpreted by an intelligent lock (Raspberry Pi inside) that allows / denies the opening of a door
-        `,
+        Developed as my final degree project, KeyWi aims to enhance user convenience by integrating connectivity, real-time data processing, and improved security measures in electronic locks. The system includes a mobile application that functions as a digital key, securely transmitting a unique NFC code to the smart lock, which then grants or denies access based on authentication`
+        ,
         imgUrl: "/images/portfolio/keywi2.jpg",
         imgLargeUrl: "/images/portfolio/keywi2.jpg"
     }, {
         title: "Mobile App",
-        description: "Taxi tracket",
-        fullText: `It is probably not one of the bigges projects that I have done, but it represents all the small apps developed while learning mobile application development with Ionic.
-        
-        This app was part of an Udemy course. It consists on a tracking system for taxi company using mobile phones using GPS positioning and real time events on Google Firebase.
-        `,
+        description: "Taxi tracker",
+        fullText: `While this may not be one of the largest projects I've worked on, it encapsulates the many small applications I developed while learning mobile app development with Ionic.
+
+            This app was conceived as a solution for a local taxi company, featuring a real-time tracking system that leveraged GPS positioning on mobile devices and live event updates via Google Firebase. The goal was to enhance fleet management and improve operational efficiency through seamless location tracking and instant data synchronization.`,
         imgUrl: "/images/portfolio/taxi-app.jpg",
         imgLargeUrl: "/images/portfolio/taxi-app.jpg",
 
@@ -101,7 +89,7 @@ export const experience = [
     {
         title: (
             <>
-                
+                Worked <br />
                 Companies
             </>
         ),
@@ -137,7 +125,7 @@ export const certificationsInfo = [
             "Continuous Integration and Continuous Deployment (CI/CD) · Jenkins · Bash scripting · Git · Microservices · Docker · Kubernetes · Google Kubernetes Engine (GKE) · Terraform · Infrastructure as Code (IaC) · Monitoring and Logging · Site Reliability Engineering (SRE) · Security and Compliance in DevOps",
     },
     {
-        logoUrl: "/images/award/award-logo2.png",
+        logoUrl: "/images/certifications/cert-logo2.png",
         title: "Professional Machine Learning Engineer",
         year: 2024,
         association: "Google",
@@ -145,7 +133,7 @@ export const certificationsInfo = [
             "Machine Learning · Deep Learning · MLOps · Google Cloud · Vertex AI · Google Kubernetes Engine (GKE) · BigQuery · Data Science · Model Deployment and Monitoring · Python · TensorFlow · Feature Engineering · AI Ethics and Fairness",
     },
     {
-        logoUrl: "/images/award/award-logo3.png",
+        logoUrl: "/images/certifications/cert-logo3.png",
         title: "Google Cloud Architect",
         year: 2024,
         association: "Google",
@@ -153,7 +141,7 @@ export const certificationsInfo = [
             "Cloud Solution Architecture · Google Cloud Platform (GCP) · Compute Engine · Kubernetes · Google Kubernetes Engine (GKE) · CI/CD · Infrastructure Automation · Networking · Security and Compliance · Terraform · BigQuery · Cloud Storage · Hybrid and Multi-cloud Architectures",
     },
     {
-        logoUrl: "/images/award/award-logo3.png",
+        logoUrl: "/images/certifications/cert-logo4.png",
         title: "Google Cloud Professional Data Engineer",
         year: 2023,
         association: "Google",
@@ -161,7 +149,7 @@ export const certificationsInfo = [
             "Big Data Processing · Google Cloud · BigQuery · Dataflow · Dataproc · Apache Spark · PySpark · Data Modeling · Data Pipelines · SQL · ETL/ELT · Machine Learning Integration · Infrastructure as Code (IaC)",
     },
     {
-        logoUrl: "/images/award/award-logo3.png",
+        logoUrl: "/images/certifications/cert-logo5.png",
         title: "Azure AI Fundamentals",
         year: 2022,
         association: "Microsoft",
@@ -169,31 +157,31 @@ export const certificationsInfo = [
             "Fundamentals of Artificial Intelligence · Machine Learning Basics · Azure Machine Learning · Cognitive Services · Responsible AI · Computer Vision · Natural Language Processing (NLP) · Conversational AI",
     },
     {
-        logoUrl: "/images/award/award-logo3.png",
-        title: "Microsoft Certified Azure Data Fundamentals",
+        logoUrl: "/images/certifications/cert-logo6.png",
+        title: "Azure Data Fundamentals",
         year: 2022,
         association: "Microsoft",
         description:
             "Azure Data Services · Azure SQL Database · Data Warehousing · Data Factory · Data Lake Storage · Data Security and Compliance · NoSQL and Relational Databases · Fundamentals of Big Data and Analytics",
     },
     {
-        logoUrl: "/images/award/award-logo3.png",
-        title: "Microsoft Azure Fundamentals",
+        logoUrl: "/images/certifications/cert-logo7.png",
+        title: "Azure Fundamentals",
         year: 2022,
         association: "Microsoft",
         description:
             "Cloud Computing Basics · Azure Core Services · Virtual Machines · Storage Solutions · Networking · Identity and Access Management (IAM) · Security and Compliance in Azure · Cost Management",
     },
     {
-        logoUrl: "/images/award/award-logo3.png",
-        title: "AWS Cloud Practitioner Essentials",
+        logoUrl: "/images/certifications/cert-logo8.png",
+        title: "Cloud Practitioner",
         year: 2022,
-        association: "Amazon",
+        association: "AWS",
         description:
             "AWS Cloud Fundamentals · Compute, Storage, and Networking Basics · Identity and Access Management (IAM) · Security Best Practices · Cost Optimization · AWS Services Overview (EC2, S3, RDS, Lambda) · Cloud Adoption Framework",
     },
     {
-        logoUrl: "/images/award/award-logo3.png",
+        logoUrl: "/images/certifications/cert-logo9.png",
         title: "GitLab Certified Associate",
         year: 2021,
         association: "GitLab",
@@ -317,11 +305,11 @@ export const education = [
     },
     {
         icon: "flaticon-graduation-cap",
-        title: 'Scrum Grand Master - Project management',
+        title: 'Scrum Grand Master',
         location: 'e-Learning center at UTN FRBA',
+        description: 'Advanced training in Scrum methodologies and project management, focusing on agile leadership, team facilitation, and process optimization.',
         date: {
             start: 2019,
-            end: 2019,
         },
     },
 ];
@@ -358,7 +346,7 @@ export const courses = [
         iconUrl: "/images/icon/ser-icon1.png",
         title: "Power BI - Business Intelligence for Beginners to Advance",
         description:
-            "Some projects require me to create dashboards to present data to stakeholders, so I took this course. I learned to build interactive reports, improving decision-making and enhancing data visualization in my data engineering work",
+            "Some projects require me to create dashboards to present data to stakeholders. I learned to build interactive reports, improving decision-making and enhancing data visualization in my data engineering work",
     },
     {
         iconUrl: "/images/icon/ser-icon2.png",
@@ -377,104 +365,6 @@ export const courses = [
         iconUrl: "/images/icon/ser-icon4.png",
         title: "ionic 2 and ionic 3: Android & iOS",
         description:
-            "Some clients required mobile applications to enrich their business, so I took this course. It helped me develop cross-platform mobile apps, integrating backend services and enhancing my ability to deliver complete software solutions.",
-    },
-];
-
-
-export const testimonial = [
-    {
-        brief: "Excepteur sint occaecat cupidatat non proiden sunt in culpa qui officia deserunt mollit anim id est laebor um. Sed ut perspiciatis unde omnis iste natus error sit volup tatem gotiraz bole ami ke",
-        profileUrl: "/images/testimonial/author-img.jpg",
-        name: "Paul Harrison",
-        profession: "QuboHub",
-    },
-    {
-        brief: "Excepteur sint occaecat cupidatat non proiden sunt in culpa qui officia deserunt mollit anim id est laebor um. Sed ut perspiciatis unde omnis iste natus error sit volup tatem gotiraz bole ami ke",
-        profileUrl: "/images/testimonial/author-img.jpg",
-        name: "Paul Harrison",
-        profession: "QuboHub",
-    },
-    {
-        brief: "Excepteur sint occaecat cupidatat non proiden sunt in culpa qui officia deserunt mollit anim id est laebor um. Sed ut perspiciatis unde omnis iste natus error sit volup tatem gotiraz bole ami ke",
-        profileUrl: "/images/testimonial/author-img.jpg",
-        name: "Paul Harrison",
-        profession: "QuboHub",
-    },
-];
-
-export const branding = [
-    {
-        logoUrl: "/images/brand/brand-img1.png",
-        hoverLogoUrl: "/images/brand/brand-hover-img1.png",
-    },
-    {
-        logoUrl: "/images/brand/brand-img2.png",
-        hoverLogoUrl: "/images/brand/brand-hover-img2.png",
-    },
-    {
-        logoUrl: "/images/brand/brand-img3.png",
-        hoverLogoUrl: "/images/brand/brand-hover-img3.png",
-    },
-    {
-        logoUrl: "/images/brand/brand-img4.png",
-        hoverLogoUrl: "/images/brand/brand-hover-img4.png",
-    },
-    {
-        logoUrl: "/images/brand/brand-img5.png",
-        hoverLogoUrl: "/images/brand/brand-hover-img5.png",
-    },
-    {
-        logoUrl: "/images/brand/brand-img1.png",
-        hoverLogoUrl: "/images/brand/brand-hover-img1.png",
-    },
-    {
-        logoUrl: "/images/brand/brand-img2.png",
-        hoverLogoUrl: "/images/brand/brand-hover-img2.png",
-    },
-    {
-        logoUrl: "/images/brand/brand-img3.png",
-        hoverLogoUrl: "/images/brand/brand-hover-img3.png",
-    },
-    {
-        logoUrl: "/images/brand/brand-img4.png",
-        hoverLogoUrl: "/images/brand/brand-hover-img4.png",
-    },
-    {
-        logoUrl: "/images/brand/brand-img5.png",
-        hoverLogoUrl: "/images/brand/brand-hover-img5.png",
-    },
-];
-
-export const blog = [
-    {
-        imgUrl: "/images/blog/blog-img1.jpg",
-        title: "Jim Morrison says when the musics over turn off the light",
-        category: "Web Design",
-    },
-    {
-        imgUrl: "/images/blog/blog-img2.jpg",
-        title: "The man who is happy will makes others too",
-        category: "Programming",
-    },
-    {
-        imgUrl: "/images/blog/blog-img3.jpg",
-        title: "The world is not enough to live your life",
-        category: "Ui & Ux",
-    },
-    {
-        imgUrl: "/images/blog/blog-img4.jpg",
-        title: "So close no matter how far could be much more",
-        category: "Graphic Design",
-    },
-    {
-        imgUrl: "/images/blog/blog-img5.jpg",
-        title: "Kobita tumi sopno charini hoye khobor nio na",
-        category: "Branding",
-    },
-    {
-        imgUrl: "/images/blog/blog-img6.jpg",
-        title: "Become the best version of you everyday",
-        category: "Marketing",
+            "Some clients required mobile applications to enrich their business, so to be ready for the action I took this course. It helped me develop cross-platform mobile apps, integrating backend services and enhancing my ability to deliver complete software solutions.",
     },
 ];

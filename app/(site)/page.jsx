@@ -24,18 +24,6 @@ export default function Home() {
             <Education />
             
             <CourseArea />
-
-            {/**
-             
-             
-             
-            
-            <Pricing />
-            <Testimonial />
-            <Branding />
-            <Contact />
-            <BlogArea />
-            */} 
             <SkillArea />
             <PortfolioArea />
             

@@ -67,7 +67,7 @@ export default function Hero() {
                                                 sequence={[
                                                     "Data Engineer",
                                                     1000,
-                                                    "software Engineer",
+                                                    "Software Engineer",
                                                     1000,
                                                     "Tech Enthusiast",
                                                     1000,

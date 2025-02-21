@@ -24,10 +24,7 @@ export default function FunFact() {
                                 </div>
                             </div>
                             <p>
-                                Sed ut perspiciatis unde omnis iste natus kobita
-                                tumi sopno charini hoye khbor nio na sit volup
-                                sundori toma amar tumi nili mar tatem
-                                accusantium dolore.
+                            Passionate about building reliable and efficient systems, I create digital solutions that deliver real impact. With 8 years of experience across multiple industries, I've contributed to 50+ projects, shaping innovative products and enhancing business operations.
                             </p>
                         </div>
                     </div>

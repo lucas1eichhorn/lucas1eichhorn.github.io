@@ -35,13 +35,16 @@ export default function AwardArea() {
                         />
                     ))}
                     {/* certifications info line end */}
-                    <button
-                        className="expand-button mt-4"
+                    <div className="cert-btn">
+                                    <button
+                                        className="black-color text-uppercase d-inline-block"
+                                    
                         onClick={() => setExpanded(!expanded)}
                         title={expanded ? "Show Less" : "More"}
-                    >
+                >
                         {expanded ? "Show Less" : "+ More"}
                     </button>
+                    </div>
                 </div>
             </div>
         </div>

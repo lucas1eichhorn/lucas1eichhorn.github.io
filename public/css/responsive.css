@@ -383,6 +383,7 @@
     .single-portfolio h3 {
         font-size: 38px;
     }
+    
     .port-img {
         margin-left: 15px;
         max-width: 62%;
@@ -402,6 +403,8 @@
     .portfolio {
         margin-top: 60px;
     }
+
+
     .award-area {
         padding-top: 130px;
         padding-bottom: 140px;

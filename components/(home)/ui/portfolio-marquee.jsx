@@ -3,7 +3,7 @@ export default function PortfolioMarquee() {
         <div className="marquee-w mb-125">
             <div className="marquee">
                 <span className="pl-4">
-                    Senior Data Engineer from Madrid *
+                    Senior Data Engineer * Madrid *
                 </span>
                 <span className="pl-4">
                   Senior Fullstack Developer *
