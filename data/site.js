@@ -366,5 +366,24 @@ export const courses = [
         title: "ionic 2 and ionic 3: Android & iOS",
         description:
             "Some clients required mobile applications to enrich their business, so to be ready for the action I took this course. It helped me develop cross-platform mobile apps, integrating backend services and enhancing my ability to deliver complete software solutions.",
+    }
+];
+
+export const lifestyle = [
+    {
+        brief: "Excepteur sint occaecat cupidatat non proiden sunt in culpa qui officia deserunt mollit anim id est laebor um. Sed ut perspiciatis unde omnis iste natus error sit volup tatem gotiraz bole ami ke",
+        profileUrl: "/images/blog/kitesurf.jpg",
+        activity: "Kitesurf",
+    },
+    {
+        brief: "Excepteur sint occaecat cupidatat non proiden sunt in culpa qui officia deserunt mollit anim id est laebor um. Sed ut perspiciatis unde omnis iste natus error sit volup tatem gotiraz bole ami ke",
+        profileUrl: "/images/blog/kitesurf.jpg",
+        activity: "Snowboard",
+    },
+    {
+        brief: "Excepteur sint occaecat cupidatat non proiden sunt in culpa qui officia deserunt mollit anim id est laebor um. Sed ut perspiciatis unde omnis iste natus error sit volup tatem gotiraz bole ami ke",
+        profileUrl: "/images/blog/kitesurf.jpg",
+        activity: "Climbing",
     },
 ];
+

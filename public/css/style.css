@@ -337,14 +337,14 @@ a:hover,
     color: #fff;
     border: 1px solid var(--main-color);
 }
-.testimonial-active .slick-arrow .l-a,
-.testimonial-active .slick-arrow .r-a {
+.lifestyle-active .slick-arrow .l-a,
+.lifestyle-active .slick-arrow .r-a {
     right: auto;
     top: auto;
     bottom: -80px;
     left: 80px;
 }
-.testimonial-active .slick-arrow .r-a {
+.lifestyle-active .slick-arrow .r-a {
     left: 132px;
 }
 
@@ -891,9 +891,9 @@ span#main {
     font-size: 30px;
 }
 
-/* 12. testimonial area
+/* 12. lifestyle area
 -------------------------------------------------------------- */
-.testimonial-text {
+.lifestyle-text {
     font-size: 24px;
     line-height: 1.75;
 }
@@ -906,10 +906,10 @@ span#main {
 .avatar-info p {
     font-size: 16px;
 }
-.testimonial-img {
+.lifestyle-img {
     width: 132%;
 }
-.testimonial-bg::before {
+.lifestyle-bg::before {
     position: absolute;
     content: "";
     background: var(--section-bg);
@@ -920,11 +920,11 @@ span#main {
     border-bottom-right-radius: 12px;
     border-top-right-radius: 12px;
 }
-.testimonial-bg {
+.lifestyle-bg {
     border-bottom-right-radius: 12px;
     border-top-right-radius: 12px;
 }
-.testimonial-text-style {
+.lifestyle-text-style {
     right: -20px;
 }
 
