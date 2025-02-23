@@ -615,7 +615,7 @@
         font-size: 50px;
     }
     .lifestyle-img {
-        width: auto;
+        width: 90%;
     }
     .contact-info-content {
         display: flex;
@@ -1143,7 +1143,7 @@
         font-size: 17px;
     }
     .lifestyle-img {
-        width: auto;
+        width: 90%;
         margin-top: 40px;
     }
     .marquee-w.mb-45 {

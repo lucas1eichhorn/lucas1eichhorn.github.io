@@ -18,7 +18,7 @@ export default function Lifestyle() {
                                     <span className="theme-color text-uppercase d-block mb-6">
                                         Lifestyle
                                     </span>
-                                    <h2 className="mb-20">What other things I do</h2>
+                                    <h2 className="mb-20">Not everything is work</h2>
                                 </div>
                             </div>
                             <div className="lifestyle-wrapper position-relative mt-40 pb-50">

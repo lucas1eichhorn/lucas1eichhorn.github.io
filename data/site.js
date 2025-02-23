@@ -371,19 +371,24 @@ export const courses = [
 
 export const lifestyle = [
     {
-        brief: "Excepteur sint occaecat cupidatat non proiden sunt in culpa qui officia deserunt mollit anim id est laebor um. Sed ut perspiciatis unde omnis iste natus error sit volup tatem gotiraz bole ami ke",
-        profileUrl: "/images/blog/kitesurf.jpg",
+        brief: "In Argentina I lived near a river, I let the wind do the work while I just tried not to crash. Turns out, data pipelines and kite lines have more in common than you’d think!",
+        profileUrl: "/images/lifestyle/kitesurf_1.jpg",
         activity: "Kitesurf",
     },
     {
-        brief: "Excepteur sint occaecat cupidatat non proiden sunt in culpa qui officia deserunt mollit anim id est laebor um. Sed ut perspiciatis unde omnis iste natus error sit volup tatem gotiraz bole ami ke",
-        profileUrl: "/images/blog/kitesurf.jpg",
+        brief: "Moved to Madrid, swapped water for snow. The mountains don’t care about code bugs, but they do teach you how to debug your landings!",
+        profileUrl: "/images/lifestyle/snowboard_1.jpg",
         activity: "Snowboard",
     },
     {
-        brief: "Excepteur sint occaecat cupidatat non proiden sunt in culpa qui officia deserunt mollit anim id est laebor um. Sed ut perspiciatis unde omnis iste natus error sit volup tatem gotiraz bole ami ke",
-        profileUrl: "/images/blog/kitesurf.jpg",
+        brief: "My friends dragged me into this, and now I willingly hang off walls for fun. Turns out, scaling climbing walls is just as thrilling as scaling data!",
+        profileUrl: "/images/lifestyle/climbing_1.jpg",
         activity: "Climbing",
     },
+    {
+        brief:"My game is better than my photo, at least that’s what I keep telling myself! Quick reflexes, strategy, and a bit of luck... just like debugging code!",
+        profileUrl: "/images/lifestyle/padel_1.jpg",
+        activity: "Padel",
+    }
 ];
 

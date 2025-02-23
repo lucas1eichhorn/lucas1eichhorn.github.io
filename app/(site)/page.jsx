@@ -26,8 +26,8 @@ export default function Home() {
             
             <CourseArea />
             <SkillArea />
-            <PortfolioArea />
             <Lifestyle />
+            <PortfolioArea />
             <Footer />
 
         </>
