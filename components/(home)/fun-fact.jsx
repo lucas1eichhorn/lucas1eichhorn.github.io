@@ -24,7 +24,7 @@ export default function FunFact() {
                                 </div>
                             </div>
                             <p>
-                            Passionate about building reliable and efficient systems, I create digital solutions that deliver real impact. With 8 years of experience across multiple industries, I've contributed to 50+ projects, shaping innovative products and enhancing business operations.
+                            Passionate about building reliable and efficient systems, I create digital solutions that deliver real impact. With 8 years of experience across multiple industries, I&apos;ve contributed to 50+ projects, shaping innovative products and enhancing business operations.
                             </p>
                         </div>
                     </div>

@@ -3,7 +3,6 @@ import React from "react";
 import Navigation from "./ui/navigation";
 import Link from "next/link";
 import useSticky from "@/hooks/useSticky";
-import Image from "next/image";
 import { useDispatch } from "react-redux";
 import { toggleSidebar } from "@/redux/features/toggle/toggleSlice";
 
