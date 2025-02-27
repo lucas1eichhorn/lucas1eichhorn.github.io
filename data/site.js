@@ -29,7 +29,7 @@ export const portfolioArea = [
     {
         title: "e-Health",
         description: "DoctorPlus",
-        fullText: "This project is part of a French startup that provides an innovative e-health solution with well-being programs. It offers a seamless platform for doctors and patients to conduct remote medical consultations through high-quality video calls powered by WebRTC technology. \n WebRTC (Web Real-Time Communications) is an open-source technology that enables websites to capture audio and video while facilitating direct peer-to-peer data exchange between browsers without requiring an intermediary. \n \n The application is fully integrated with various third-party services, including Stripe for secure payments, SendGrid for efficient email communication, and AWS SNS (Simple Notification Service) to enable real-time event notifications between users.This app is fully integrated with third party services such as Stripe for payments, SendGrid for mailing, and even AWS SNS (Simple Notification Services) to notify events between users.",
+        fullText: "This project was part of a French startup that provided an innovative e-health solution with well-being programs. It offered a seamless platform for doctors and patients to conduct remote medical consultations through high-quality video calls powered by WebRTC technology. \n WebRTC (Web Real-Time Communications) is an open-source technology that enables websites to capture audio and video while facilitating direct peer-to-peer data exchange between browsers without requiring an intermediary. \n \n The application was fully integrated with various third-party services, including Stripe for secure payments, SendGrid for efficient email communication, and AWS SNS (Simple Notification Service) to enable real-time event notifications between users.This app is fully integrated with third party services such as Stripe for payments, SendGrid for mailing, and even AWS SNS (Simple Notification Services) to notify events between users.",
         imgUrl: "/images/portfolio/doctorplus.jpg",
         imgLargeUrl: "/images/portfolio/doctorplus.jpg"
     },
@@ -200,8 +200,8 @@ export const experience2 = [
             end: "Running",
         },
         title: "Data Engineer",
-        description: 'Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae et vitae ullam molesti quae quasi.',
-        skills: "PHP, SQL, HTML, CSS, Javascript, jQuery, AWS Cloud Admin, API REST, Git"
+        description: "Currently I´m focused on enhancing the ticketing ecosystem for musicals by integrating multiple data sources into a centralized Data Warehouse. I have led the migration and implementation of CRM pipelines to HubSpot, optimizing processes for greater efficiency and scalability. Additionally, I ensure that security and compliance standards are met, creating a solid and reliable data infrastructure",
+        skills: "BigQuery, Clud Run, Docker, dbt, CI/CD, HubSpot, Python, GitHub Actions, GCP Workflows "
     },
     {
         icon: "flaticon-briefcase",
@@ -211,8 +211,8 @@ export const experience2 = [
             end: 2024,
         },
         title: "Data Engineer",
-        description: "",
-        skills: "PHP, SQL, HTML, CSS, Javascript, jQuery, AWS Cloud Admin, API REST, Git"
+        description: "I contributed to international projects in survey analysis, branding insights, and sentiment analysis. My role involved integrating marketing data from diverse sources into a unified Data Warehouse and streamlining key data processes to improve advertising campaign performance. This experience deepened my understanding of data-driven marketing strategies and large-scale analytics",
+        skills: "BigQuery, Clud Run, Databricks, dataform, CI/CD, Dataproc, Python, GitHub Actions, GCP Workflows, VertexAI "
     },
     {
         icon: "flaticon-briefcase",
@@ -222,8 +222,8 @@ export const experience2 = [
             end: 2023,
         },
         title: "Data Engineer",
-        description: "",
-        skills: "PHP, SQL, HTML, CSS, Javascript, jQuery, AWS Cloud Admin, API REST, Git"
+        description: "Here I played a key role in migrating on-premise Microsoft systems to Azure and transitioning data processes to AWS, leveraging Redshift for Data Warehousing. I worked on integrating diverse data sources, designing optimized data models, and developing interactive dashboards to support data-driven decision-making in the public sector.",
+        skills: "AWS, RedShif, Lambdas, S3, Cloud Formation , DynamoDB, Azure Data Factory, Azure Functions, Blob Storage, PowerBI, SSIS, Python"
     },
     {
         icon: "flaticon-briefcase",
@@ -233,7 +233,7 @@ export const experience2 = [
             end: 2021,
         },
         title: "Tech Lead",
-        description: `DoctorPlus is French startup that provides an e-health solution with well-being programs. Through video consultations it offers doctors and patients a platform to achieve remote medical consultations.
+        description: `DoctorPlus was French startup that provides an e-health solution with well-being programs. Through video consultations it offers doctors and patients a platform to achieve remote medical consultations.
         This project started a few years ago, while I was working at the Xinergia consulting firm developing the application for Argentina, and some years later I got involved again to develop the product in France and even in Morocco in a future. 
         I have a huge variety of tasks here. In my role as a lead full stack developer, I work from analysis with the product owner to software implementations and even AWS Cloud management. 
         `,

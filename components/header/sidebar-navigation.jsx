@@ -2,35 +2,12 @@
 import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
 import navigation from "@/data/navigation";
 import { Link } from "react-scroll";
+import SidebarSocial from "./ui/sidebar-social"
 import { useDispatch, useSelector } from "react-redux";
 import { toggleSidebar } from "@/redux/features/toggle/toggleSlice";
 
-const social = [
-    {
-        name: "Facebook",
-        icon: "fab fa-github",
-        color: "facebook-bg",
-        href: "#",
-    },
-    {
-        name: "Twitter",
-        icon: "fab fa-twitter",
-        color: "twitter-bg",
-        href: "#",
-    },
-    {
-        name: "Linkedin",
-        icon: "fab fa-linkedin-in",
-        color: "linkedin-bg",
-        href: "#",
-    },
-    {
-        name: "Instagram",
-        icon: "fab fa-instagram",
-        color: "instagram-bg",
-        href: "#",
-    },
-];
+
+
 
 export default function SidebarNavigation() {
     const isSidebarActive = useSelector(
@@ -71,22 +48,9 @@ export default function SidebarNavigation() {
                 </Menu>
 
                 {/* social link start */}
-                <h5 className="text-white text-center mt-35 pb-1 d-inline-block ml-3">
-                    Follow me
-                </h5>
-
-                <ul className="social social-bg text-center d-flex mt-10 ml-3">
-                    {social?.map((item, i) => (
-                        <li key={i} className="mr-2 rotate-hover">
-                            <Link
-                                className={`${item.color} text-center pr-0 text-white d-block transition-3 rotate`}
-                                href={item.href}
-                            >
-                                <i className={item.icon} />
-                            </Link>
-                        </li>
-                    ))}
-                </ul>
+               
+                    <SidebarSocial />
+                
                 {/* social link end */}
             </Sidebar>
         </div>
