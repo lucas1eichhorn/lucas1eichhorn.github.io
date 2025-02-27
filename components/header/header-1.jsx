@@ -40,7 +40,7 @@ export default function Header1() {
 
                                 <div className="header-btn pl-45">
                                     <Link
-                                        href="/files/CV_Lucas_Eichhorn_en.pdf"
+                                        href="https://lucaseichhorn.com.ar/public/files/Lucas_Eichhorn_CV.pdf"
                                         download
                                         target="_blank"
                                         className="white-text text-uppercase d-inline-block"

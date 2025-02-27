@@ -17,7 +17,7 @@ export default function AboutInfo() {
                 I have solid background in full stack development, with +6 years in the software industry in the past, working as a Full Stack developer, creating web and mobile applications for different industries. Therefore, I have a deep understanding of transactional applications world, data and software engineering lifecycle with coding best practices in different programming languages,
             </p>
             <p className="mb-2">
-                3 years ago, I decided to focus my career on Big Data & AI technologies. I found my experience along with data engineering tools really useful. Using all these acquired skills together helping my teams achieve the organization&apos;s goals.
+                These last 3 years, I decided to focus my career on Big Data & AI technologies. I found my experience along with data engineering tools really useful. Using all these acquired skills together helping my teams achieve the organization&apos;s goals.
             </p>
             
             <div className="about-info-wrapper pt-25 pb-20 mt-25">
