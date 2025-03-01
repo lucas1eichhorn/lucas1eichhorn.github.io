@@ -991,7 +991,7 @@
         margin-bottom: 45px;
     }
     .slider-content h1 {
-        font-size: 60px;
+        font-size: 50px;
         margin-bottom: 18px;
     }
     .slider-content span {
@@ -1065,7 +1065,7 @@
         font-size: 24px;
     }
     .experience-service-text h4 {
-        font-size: 21px;
+        font-size: 18px;
     }
     .experience-service-text h4 span {
         font-size: 15px;
@@ -1133,7 +1133,7 @@
         line-height: 1.5;
     }
     .lifestyle-active {
-        padding-left: 50px;
+        padding-left: 20px;
         padding-right: 0;
     }
     .quit img {
@@ -1302,6 +1302,7 @@
         position: relative !important;
     }
     .experience-bg-img {
+        width: 80% !important;
         border-radius: 12px;
         margin: 0 auto;
         position: inherit !important;
@@ -1472,7 +1473,7 @@
         height: 310px;
     }
     .single-intro-feature-content {
-        padding: 45px 30px 25px 30px;
+        padding: 30px;
     }
     .intro-ft-icon img {
         max-width: 35px;
