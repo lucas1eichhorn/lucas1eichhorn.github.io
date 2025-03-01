@@ -2,7 +2,7 @@ export default function ExperienceList({ data }) {
     const { start, end } = data.date || {};
 
     return (
-        <li className="mb-32 d-flex align-items-start rotate-hover">
+        <li className="mb-32 align-items-start rotate-hover">
             <div className="experience-ser-icon d-inline-block text-center mt-10 mr-30 transition3">
                 <span className="theme-color d-inline-block">
                     <span
@@ -18,7 +18,11 @@ export default function ExperienceList({ data }) {
                         ( {start} - {end} )
                     </span>
                 </h4>
-                <p className="mb-0 mt-15">{data.description}</p>
+               
+            </div>
+            <div className="row ml-20 d-block">
+
+            <p className="mb-0 mt-15">{data.description}</p>
             </div>
         </li>
     );
