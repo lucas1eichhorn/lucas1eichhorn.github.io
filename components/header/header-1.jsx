@@ -40,7 +40,7 @@ export default function Header1() {
 
                                 <div className="header-btn pl-45">
                                     <Link
-                                        href="https://lucaseichhorn.com.ar/public/files/Lucas_Eichhorn_CV.pdf"
+                                        href="/files/Lucas_Eichhorn_CV.pdf"
                                         download
                                         target="_blank"
                                         className="white-text text-uppercase d-inline-block"
@@ -51,7 +51,7 @@ export default function Header1() {
 
                                 <div className="mobile-m-bar d-block d-lg-none ml-30">
                                     <Link
-                                        href="/files/Lucas_Eichhorn_CV.pdf"
+                                        href="#"
                                         onClick={sidebarHandler}
                                         className="mobile-menubar theme-color primary-hover"
                                     >
