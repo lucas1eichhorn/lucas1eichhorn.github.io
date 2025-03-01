@@ -20,7 +20,7 @@ export default function ExperienceList({ data }) {
                 </h4>
                
             </div>
-            <div className="row ml-20 d-block">
+            <div className="row ml-1 d-block">
 
             <p className="mb-0 mt-15">{data.description}</p>
             </div>
