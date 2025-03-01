@@ -51,7 +51,7 @@ export default function Header1() {
 
                                 <div className="mobile-m-bar d-block d-lg-none ml-30">
                                     <Link
-                                        href="#"
+                                        href="/files/Lucas_Eichhorn_CV.pdf"
                                         onClick={sidebarHandler}
                                         className="mobile-menubar theme-color primary-hover"
                                     >
