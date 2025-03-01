@@ -74,7 +74,7 @@ export default function About() {
                                                 alt="about image 2"
                                             />
                                             <Link
-                                                 href="https://lucaseichhorn.com.ar/public/files/Lucas_Eichhorn_CV.pdf"
+                                                 href="/files/Lucas_Eichhorn_CV.pdf"
                                                  download
                                                  target="_blank"
                                                 className="cv-download-link transition5"
