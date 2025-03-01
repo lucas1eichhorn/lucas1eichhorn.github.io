@@ -93,7 +93,7 @@ export const experience = [
                 Companies
             </>
         ),
-        x: "5",
+        x: "7",
     },
     {
         title: (
