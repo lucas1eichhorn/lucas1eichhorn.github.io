@@ -84,7 +84,7 @@ export const experience = [
                 Years of <br /> Experience
             </>
         ),
-        x: 8,
+        x: 9,
     },
     {
         title: (
@@ -107,11 +107,11 @@ export const experience = [
     {
         title: (
             <>
-                Digital <br />
-                Products
+                Clouds <br />
+                Experience
             </>
         ),
-        x: 30,
+        x: 3,
     },
 ];
 
