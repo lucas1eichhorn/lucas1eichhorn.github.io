@@ -117,6 +117,14 @@ export const experience = [
 
 export const certificationsInfo = [
     {
+        logoUrl: "/images/certifications/cert-logo10.png",
+        title: "Professional Cloud Security Engineer",
+        year: 2025,
+        association: "Google",
+        description: 
+            "Network Security · Identity and Access Management (IAM) · Data Privacy · Data loss prevention · Cloud Security and Compliance",
+    },
+    {
         logoUrl: "/images/certifications/cert-logo1.png",
         title: "Professional Cloud DevOps Engineer",
         year: 2024,
