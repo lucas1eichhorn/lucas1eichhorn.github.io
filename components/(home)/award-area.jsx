@@ -7,7 +7,7 @@ import AwardAreaLine from "./ui/award-area-line";
 export default function AwardArea() {
     const [expanded, setExpanded] = useState(false);
     
-    const visibleCertifications = expanded ? certificationsInfo : certificationsInfo.slice(0, 4);
+    const visibleCertifications = expanded ? certificationsInfo : certificationsInfo.slice(0, 5);
     
     return (
         <div id="certifications" className="award-area over-hidden position-relative z-index11 pt-160 pb-170">
