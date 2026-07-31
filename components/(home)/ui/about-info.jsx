@@ -11,13 +11,14 @@ export default function AboutInfo() {
                 </div>
             </div>
             <p className="mb-2">
-                Let&apos;s see. where I do begin? I&apos;m an Argentinian system engineer now based in Madrid, where I moved to study a master degree in Big Data Science in 2021.
+                Let&apos;s see. where I do begin? I&apos;m an Argentinian system engineer currenyly based in Amsterdam. In 2021, I moved to Madrid to pursue a Master’s degree in Big Data Science, transitioning my career towards Big Data and AI technologies. More recently, I relocated to Amsterdam to pursue new professional opportunities and continue growing in an international technology environment.
             </p>
+
             <p className="mb-2">
                 I have solid background in full stack development, with +6 years in the software industry in the past, working as a Full Stack developer, creating web and mobile applications for different industries. Therefore, I have a deep understanding of transactional applications world, data and software engineering lifecycle with coding best practices in different programming languages,
             </p>
             <p className="mb-2">
-                These last 3 years, I decided to focus my career on Big Data & AI technologies. I found my experience along with data engineering tools really useful. Using all these acquired skills together helping my teams achieve the organization&apos;s goals.
+                These last years, I decided to focus my career on Big Data & AI technologies. I found my experience along with data engineering tools really useful. Using all these acquired skills together helping my teams achieve the organization&apos;s goals.
             </p>
             
             <div className="about-info-wrapper pt-25 pb-20 mt-25">
@@ -39,7 +40,7 @@ export default function AboutInfo() {
                             <li className="d-inline-block">
                                 <p className="mb-6">Lucas Alberto</p>
                                 <p className="mb-6">Eichhorn Muller</p>
-                                <p className="mb-6">31 Years</p>
+                                <p className="mb-6">32 Years</p>
                             </li>
                         </ul>
                     </div>
@@ -60,7 +61,7 @@ export default function AboutInfo() {
 
                             <li className="d-inline-block">
                                 <p className="mb-6">Data engineer</p>
-                                <p className="mb-6">Madrid, Spain</p>
+                                <p className="mb-6">Amsterdam, Netherlands</p>
                                 <p className="mb-6">Argentina & Spain</p>
                             </li>
                         </ul>
