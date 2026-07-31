@@ -11,7 +11,7 @@ export default function AboutInfo() {
                 </div>
             </div>
             <p className="mb-2">
-                Let&apos;s see. where I do begin? I&apos;m an Argentinian system engineer currenyly based in Amsterdam. In 2021, I moved to Madrid to pursue a Master’s degree in Big Data Science, transitioning my career towards Big Data and AI technologies. More recently, I relocated to Amsterdam to pursue new professional opportunities and continue growing in an international technology environment.
+                Let&apos;s see. where I do begin? I&apos;m an Argentinian system engineer currenyly based in Amsterdam. Back in 2021, I moved to Madrid to pursue a Master’s degree in Big Data Science, transitioning my career towards Big Data and AI technologies. More recently, I relocated to Amsterdam to pursue new professional opportunities and continue growing in an international technology environment.
             </p>
 
             <p className="mb-2">
