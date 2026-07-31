@@ -5,7 +5,7 @@ import Providers from "./providers";
 
 export const metadata = {
   "title": "Lucas Eichhorn | Data and Software Engineer",
-  "description": "Portfolio of Lucas Eichhorn, a Data and Software Engineer with experience in Big Data, Machine Learning, and Software development. Based in Madrid, Spain, specializing in innovative technological solutions and business process optimization.",
+  "description": "Portfolio of Lucas Eichhorn, a Data and Software Engineer with experience in Big Data, Machine Learning, and Software development. Based in Amsterdam, Netherlands, specializing in innovative technological solutions and business process optimization.",
   "keywords": [
     "Lucas Eichhorn",
     "Data Engineer",
@@ -21,7 +21,7 @@ export const metadata = {
   ],
   "openGraph": {
     "title": "Lucas Eichhorn | Data and Software Engineer",
-    "description": "Explore the portfolio of Lucas Eichhorn, an expert in Big Data, Machine Learning, and Software development, offering innovative technological solutions from Madrid, Spain.",
+    "description": "Explore the portfolio of Lucas Eichhorn, an expert in Big Data, Machine Learning, and Software development, offering innovative technological solutions from Amsterdam, Netherlands.",
     "image": "https://lucaseichhorn.com.ar/images/slider/person.png",
     "url": "https://lucaseichhorn.com.ar",
     "type": "website"
@@ -29,7 +29,7 @@ export const metadata = {
   "twitter": {
     "card": "summary_large_image",
     "title": "Lucas Eichhorn | Data and Software Engineer",
-    "description": "Meet Lucas Eichhorn, a specialist in Big Data, Machine Learning, and Software development, providing technological solutions from Madrid, Spain.",
+    "description": "Meet Lucas Eichhorn, a specialist in Big Data, Machine Learning, and Software development, providing technological solutions from Amsterdam, Netherlands.",
     "image": "https://lucaseichhorn.com.ar/images/slider/person.png"
   },
   "robots": "index, follow",
