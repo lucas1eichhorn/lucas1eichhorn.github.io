@@ -26,6 +26,13 @@ export const introFeature = [
 ];
 
 export const portfolioArea = [
+     {
+        title: "IoT",
+        description: "Arduino DIY",
+        fullText: "I also enjoy building DIY electronics projects with Arduino, sensors, and microcontrollers to solve everyday problems and explore new technologies. From automated plant watering systems to smart home prototypes, these projects combine hardware, programming, and creativity to turn ideas into practical solutions.",
+        imgUrl: "/images/portfolio/arduino.jpg",
+        imgLargeUrl: "/images/portfolio/arduino.jpg"
+    },
     {
         title: "e-Health",
         description: "DoctorPlus",
@@ -119,10 +126,26 @@ export const certificationsInfo = [
      {
         logoUrl: "/images/certifications/cert-logo11.png",
         title: "Fabric Data Engineer Associate",
-        year: 2025,
+        year: 2026,
         association: "Microsoft",
         description: 
             "Azure Data Factory · Azure Data Lake · Microsoft Power BI · Azure Databricks  · Azure SQL  ·  PySpark",
+    },
+     {
+        logoUrl: "/images/certifications/cert-logo3.png",
+        title: "Google Cloud Architect",
+        year: 2026,
+        association: "Google",
+        description:
+            "Cloud Solution Architecture · Google Cloud Platform (GCP) · Compute Engine · Kubernetes · Google Kubernetes Engine (GKE) · CI/CD · Infrastructure Automation · Networking · Security and Compliance · Terraform · BigQuery · Cloud Storage · Hybrid and Multi-cloud Architectures",
+    },
+    {
+        logoUrl: "/images/certifications/cert-logo4.png",
+        title: "Google Cloud Professional Data Engineer",
+        year: 2025,
+        association: "Google",
+        description:
+            "Big Data Processing · Google Cloud · BigQuery · Dataflow · Dataproc · Apache Spark · PySpark · Data Modeling · Data Pipelines · SQL · ETL/ELT · Machine Learning Integration · Infrastructure as Code (IaC)",
     },
     {
         logoUrl: "/images/certifications/cert-logo10.png",
@@ -147,22 +170,6 @@ export const certificationsInfo = [
         association: "Google",
         description:
             "Machine Learning · Deep Learning · MLOps · Google Cloud · Vertex AI · Google Kubernetes Engine (GKE) · BigQuery · Data Science · Model Deployment and Monitoring · Python · TensorFlow · Feature Engineering · AI Ethics and Fairness",
-    },
-    {
-        logoUrl: "/images/certifications/cert-logo3.png",
-        title: "Google Cloud Architect",
-        year: 2024,
-        association: "Google",
-        description:
-            "Cloud Solution Architecture · Google Cloud Platform (GCP) · Compute Engine · Kubernetes · Google Kubernetes Engine (GKE) · CI/CD · Infrastructure Automation · Networking · Security and Compliance · Terraform · BigQuery · Cloud Storage · Hybrid and Multi-cloud Architectures",
-    },
-    {
-        logoUrl: "/images/certifications/cert-logo4.png",
-        title: "Google Cloud Professional Data Engineer",
-        year: 2023,
-        association: "Google",
-        description:
-            "Big Data Processing · Google Cloud · BigQuery · Dataflow · Dataproc · Apache Spark · PySpark · Data Modeling · Data Pipelines · SQL · ETL/ELT · Machine Learning Integration · Infrastructure as Code (IaC)",
     },
     {
         logoUrl: "/images/certifications/cert-logo5.png",
@@ -210,7 +217,7 @@ export const certificationsInfo = [
 export const experience2 = [
       {
         icon: "flaticon-briefcase",
-        company: "Stage Entertainment (Netherlands)",
+        company: "Stage Entertainment Operations (Netherlands)",
         date: {
             start: 2026,
             end: "Running",
