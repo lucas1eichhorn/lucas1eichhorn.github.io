@@ -61,7 +61,7 @@ export default function AboutInfo() {
 
                             <li className="d-inline-block">
                                 <p className="mb-6">Data engineer</p>
-                                <p className="mb-6">Amsterdam, Netherlands</p>
+                                <p className="mb-6">Amsterdam, NL</p>
                                 <p className="mb-6">Argentina & Spain</p>
                             </li>
                         </ul>
