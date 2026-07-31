@@ -84,7 +84,7 @@ export const experience = [
                 Years of <br /> Experience
             </>
         ),
-        x: 9,
+        x: 11,
     },
     {
         title: (
@@ -93,7 +93,7 @@ export const experience = [
                 Companies
             </>
         ),
-        x: "7",
+        x: "8",
     },
     {
         title: (
@@ -116,6 +116,14 @@ export const experience = [
 ];
 
 export const certificationsInfo = [
+     {
+        logoUrl: "/images/certifications/cert-logo11.png",
+        title: "Fabric Data Engineer Associate",
+        year: 2025,
+        association: "Microsoft",
+        description: 
+            "Azure Data Factory · Azure Data Lake · Microsoft Power BI · Azure Databricks  · Azure SQL  ·  PySpark",
+    },
     {
         logoUrl: "/images/certifications/cert-logo10.png",
         title: "Professional Cloud Security Engineer",
@@ -200,15 +208,26 @@ export const certificationsInfo = [
 
 
 export const experience2 = [
-    {
+      {
         icon: "flaticon-briefcase",
-        company: "Stage Entertainment",
+        company: "Stage Entertainment (Netherlands)",
         date: {
-            start: 2024,
+            start: 2026,
             end: "Running",
         },
+        title: "Data Engineer / Data Architect",
+        description: "Currently, I transitioned to an international data architecture role in Amsterdam, supporting markets to define and govern global data architecture standards. I focus on providing data engineering and architectural support to local teams",
+        skills: "BigQuery, Clud Run, Docker, dbt, CI/CD, HubSpot, Python, GitHub Actions, GCP Workflows "
+    },
+    {
+        icon: "flaticon-briefcase",
+        company: "Stage Entertainment (Spain)",
+        date: {
+            start: 2024,
+            end: 2026,
+        },
         title: "Data Engineer",
-        description: "Currently I´m focused on enhancing the ticketing ecosystem for musicals by integrating multiple data sources into a centralized Data Warehouse. I have led the migration and implementation of CRM pipelines to HubSpot, optimizing processes for greater efficiency and scalability. Additionally, I ensure that security and compliance standards are met, creating a solid and reliable data infrastructure",
+        description: "I focused on enhancing the ticketing ecosystem for musicals by integrating multiple data sources into a centralized Data Warehouse. I have led the migration and implementation of CRM pipelines to HubSpot, optimizing processes for greater efficiency and scalability. Additionally, I ensured that security and compliance standards are met, creating a solid and reliable data infrastructure",
         skills: "BigQuery, Clud Run, Docker, dbt, CI/CD, HubSpot, Python, GitHub Actions, GCP Workflows "
     },
     {
